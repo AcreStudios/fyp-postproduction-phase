@@ -25,7 +25,7 @@ GameObject:
   m_Name: Building02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1001674748863948
@@ -43,7 +43,7 @@ GameObject:
   m_Name: AirconLarge (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1002427396478406
@@ -60,7 +60,7 @@ GameObject:
   m_Name: MugTray01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1002564730371890
@@ -77,7 +77,7 @@ GameObject:
   m_Name: Railing01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1003152063011612
@@ -127,7 +127,7 @@ GameObject:
   m_Name: Railing01 (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1009244904492056
@@ -160,7 +160,7 @@ GameObject:
   m_Name: Office Chair (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1011656696574230
@@ -177,7 +177,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1013902620561604
@@ -194,7 +194,7 @@ GameObject:
   m_Name: Railing01 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1014104446384794
@@ -211,7 +211,7 @@ GameObject:
   m_Name: Railing01 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1018794883816392
@@ -229,7 +229,7 @@ GameObject:
   m_Name: Office Chair (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1019057873374272
@@ -276,7 +276,7 @@ GameObject:
   m_Name: ToiletDoor02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1028857166783244
@@ -293,7 +293,7 @@ GameObject:
   m_Name: WindowFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1029242275195606
@@ -310,7 +310,7 @@ GameObject:
   m_Name: Railing01 (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1031248694506538
@@ -328,7 +328,7 @@ GameObject:
   m_Name: Office Chair (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1031629696131568
@@ -345,7 +345,7 @@ GameObject:
   m_Name: Railing01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1035073595717012
@@ -381,7 +381,7 @@ GameObject:
   m_Name: Office Chair (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1039212616349468
@@ -399,7 +399,7 @@ GameObject:
   m_Name: AirconSmall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1040180298699718
@@ -416,7 +416,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1041602669856610
@@ -434,7 +434,7 @@ GameObject:
   m_Name: Office Chair (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1042348556951776
@@ -451,44 +451,8 @@ GameObject:
   m_Name: Mug02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967294
-  m_IsActive: 1
---- !u!1 &1047097616935514
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4891469004924954}
-  - component: {fileID: 33444349846253344}
-  - component: {fileID: 23510639779928110}
-  - component: {fileID: 65194665468965802}
-  m_Layer: 0
-  m_Name: Office Chair (43)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1050462421996362
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4863880318436598}
-  - component: {fileID: 33260865502720002}
-  - component: {fileID: 23682760586167362}
-  - component: {fileID: 65687399492703004}
-  m_Layer: 0
-  m_Name: Office Chair (40)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1052705355335160
 GameObject:
@@ -504,7 +468,7 @@ GameObject:
   m_Name: Railing01 (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1053978048067756
@@ -521,7 +485,7 @@ GameObject:
   m_Name: Building35 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1056713228697652
@@ -538,7 +502,7 @@ GameObject:
   m_Name: Railing01 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1057850209366906
@@ -555,7 +519,7 @@ GameObject:
   m_Name: Railing01 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1058411560455770
@@ -572,7 +536,7 @@ GameObject:
   m_Name: Railing01 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1066787630823600
@@ -590,7 +554,7 @@ GameObject:
   m_Name: Office Chair (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1068516956475196
@@ -608,7 +572,7 @@ GameObject:
   m_Name: Office Chair (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1068949978485068
@@ -625,7 +589,7 @@ GameObject:
   m_Name: Railing01 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1069123438523400
@@ -642,7 +606,7 @@ GameObject:
   m_Name: Building61 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1069276633288626
@@ -659,7 +623,7 @@ GameObject:
   m_Name: Projector01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1069615101937648
@@ -676,7 +640,7 @@ GameObject:
   m_Name: Railing01 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1070525628155114
@@ -712,7 +676,7 @@ GameObject:
   m_Name: Office Chair (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1074143704140762
@@ -744,7 +708,7 @@ GameObject:
   m_Name: Railing01 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1080116831613164
@@ -777,7 +741,7 @@ GameObject:
   m_Name: Office Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1086453624742308
@@ -810,7 +774,7 @@ GameObject:
   m_Name: Office Chair (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1087120978254548
@@ -843,7 +807,7 @@ GameObject:
   m_Name: AirconLarge (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1092965910726596
@@ -878,7 +842,7 @@ GameObject:
   m_Name: Railing01 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1094573926188170
@@ -896,7 +860,7 @@ GameObject:
   m_Name: Office Chair (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1094642169507010
@@ -928,7 +892,7 @@ GameObject:
   m_Name: Railing01 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1104904342087896
@@ -945,7 +909,7 @@ GameObject:
   m_Name: Railing01 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1106929752666064
@@ -963,7 +927,7 @@ GameObject:
   m_Name: AirconLarge (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1107902802917708
@@ -995,7 +959,7 @@ GameObject:
   m_Name: Railing01 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1111477066158272
@@ -1012,7 +976,7 @@ GameObject:
   m_Name: Railing01 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1112501143267092
@@ -1029,7 +993,7 @@ GameObject:
   m_Name: Railing01 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1118632535187698
@@ -1046,7 +1010,7 @@ GameObject:
   m_Name: Railing01 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1120989528288768
@@ -1079,7 +1043,7 @@ GameObject:
   m_Name: Office Chair (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1128911895864234
@@ -1115,7 +1079,7 @@ GameObject:
   m_Name: Office Chair (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1131151827907732
@@ -1132,7 +1096,7 @@ GameObject:
   m_Name: Railing01 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1133760352681854
@@ -1149,7 +1113,7 @@ GameObject:
   m_Name: Building02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1136937080651068
@@ -1166,7 +1130,7 @@ GameObject:
   m_Name: Railing01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1137391101724150
@@ -1183,7 +1147,7 @@ GameObject:
   m_Name: Railing01 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1139456682351038
@@ -1201,25 +1165,7 @@ GameObject:
   m_Name: Office Chair (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1139900871806128
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4972501940960776}
-  - component: {fileID: 33993007749842422}
-  - component: {fileID: 23619120708629922}
-  - component: {fileID: 65762380331133150}
-  m_Layer: 0
-  m_Name: Office Chair (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1142900901864358
@@ -1236,7 +1182,7 @@ GameObject:
   m_Name: Railing01 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1143582244952910
@@ -1285,7 +1231,7 @@ GameObject:
   m_Name: Building34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1153241198694956
@@ -1303,7 +1249,7 @@ GameObject:
   m_Name: Office Chair (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1155832502288514
@@ -1320,7 +1266,7 @@ GameObject:
   m_Name: Table Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1156136558676324
@@ -1338,7 +1284,7 @@ GameObject:
   m_Name: Office Chair (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1156799016975808
@@ -1355,25 +1301,7 @@ GameObject:
   m_Name: Railing01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1157498459136182
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4582181757512370}
-  - component: {fileID: 33346047659377530}
-  - component: {fileID: 23228013073497048}
-  - component: {fileID: 65809648070572380}
-  m_Layer: 0
-  m_Name: Office Chair (39)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1158341946455536
@@ -1424,7 +1352,7 @@ GameObject:
   m_Name: Office Chair (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1160847874404040
@@ -1475,7 +1403,7 @@ GameObject:
   m_Name: AirconLarge (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1168508890668114
@@ -1510,7 +1438,7 @@ GameObject:
   m_Name: Railing01 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1173427075257186
@@ -1527,7 +1455,7 @@ GameObject:
   m_Name: Building41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1177028165172946
@@ -1559,7 +1487,7 @@ GameObject:
   m_Name: Railing01 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1185469079039240
@@ -1591,7 +1519,7 @@ GameObject:
   m_Name: Railing01 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1188929411013320
@@ -1608,7 +1536,7 @@ GameObject:
   m_Name: Railing01 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1191475060554080
@@ -1625,7 +1553,7 @@ GameObject:
   m_Name: Railing01 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1192594747202446
@@ -1642,7 +1570,7 @@ GameObject:
   m_Name: Glass009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1195523144943780
@@ -1659,7 +1587,7 @@ GameObject:
   m_Name: Building61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1195984197750678
@@ -1677,7 +1605,7 @@ GameObject:
   m_Name: AirconLarge (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1197349403863132
@@ -1694,7 +1622,7 @@ GameObject:
   m_Name: Railing01 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1197711016151460
@@ -1711,7 +1639,7 @@ GameObject:
   m_Name: Railing01 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1198290015387946
@@ -1728,7 +1656,7 @@ GameObject:
   m_Name: Railing01 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1200316223714164
@@ -1746,7 +1674,7 @@ GameObject:
   m_Name: AirconLarge (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1201894950884326
@@ -1782,7 +1710,7 @@ GameObject:
   m_Name: Office Chair (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1203304890182494
@@ -1800,7 +1728,7 @@ GameObject:
   m_Name: Table Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1204023276183262
@@ -1817,7 +1745,7 @@ GameObject:
   m_Name: Railing01 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1206257511000158
@@ -1834,7 +1762,7 @@ GameObject:
   m_Name: Railing01 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1207832036642332
@@ -1852,7 +1780,7 @@ GameObject:
   m_Name: Office Chair (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1208735087869492
@@ -1884,7 +1812,7 @@ GameObject:
   m_Name: Railing01 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1211770307214952
@@ -1901,7 +1829,7 @@ GameObject:
   m_Name: Railing01 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1211895816623638
@@ -1919,7 +1847,7 @@ GameObject:
   m_Name: AirconLarge (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1213099712552470
@@ -1970,7 +1898,7 @@ GameObject:
   m_Name: AirconLarge (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1215341614887194
@@ -2002,7 +1930,7 @@ GameObject:
   m_Name: Railing01 (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1215696860011860
@@ -2019,7 +1947,7 @@ GameObject:
   m_Name: WindowFrame003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1216750550654558
@@ -2054,7 +1982,7 @@ GameObject:
   m_Name: Railing01 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1220915263714138
@@ -2071,7 +1999,7 @@ GameObject:
   m_Name: Railing01 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1225854319120818
@@ -2103,7 +2031,7 @@ GameObject:
   m_Name: Railing01 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1227234408764632
@@ -2121,7 +2049,7 @@ GameObject:
   m_Name: AirconSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1228374085386720
@@ -2139,7 +2067,7 @@ GameObject:
   m_Name: Office Chair (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1228884730423602
@@ -2157,7 +2085,7 @@ GameObject:
   m_Name: AirconLarge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1228891577675108
@@ -2175,7 +2103,7 @@ GameObject:
   m_Name: Office Chair (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1234924611504600
@@ -2193,7 +2121,7 @@ GameObject:
   m_Name: Office Chair (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1236064194407170
@@ -2211,7 +2139,7 @@ GameObject:
   m_Name: Office Chair (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1239255054874814
@@ -2228,7 +2156,7 @@ GameObject:
   m_Name: Railing01 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1239477929602988
@@ -2281,7 +2209,7 @@ GameObject:
   m_Name: Railing01 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1245297111109598
@@ -2299,7 +2227,7 @@ GameObject:
   m_Name: Trashcan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1245308066962286
@@ -2316,7 +2244,7 @@ GameObject:
   m_Name: Building10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1250338142990612
@@ -2333,7 +2261,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1252800627971416
@@ -2351,7 +2279,7 @@ GameObject:
   m_Name: AirconLarge (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1255082086397052
@@ -2387,7 +2315,7 @@ GameObject:
   m_Name: Trashcan (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1256164581869800
@@ -2423,7 +2351,7 @@ GameObject:
   m_Name: AirconLarge (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1263102913369178
@@ -2440,7 +2368,7 @@ GameObject:
   m_Name: ProjectorScreen01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1263840487205110
@@ -2458,7 +2386,7 @@ GameObject:
   m_Name: AirconLarge (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1263901832849292
@@ -2475,7 +2403,7 @@ GameObject:
   m_Name: ToiletDoor02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1264037659351478
@@ -2493,7 +2421,7 @@ GameObject:
   m_Name: Office Chair (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1264252682325970
@@ -2526,7 +2454,7 @@ GameObject:
   m_Name: Office Chair (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1267509724298462
@@ -2544,7 +2472,7 @@ GameObject:
   m_Name: AirconLarge (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1274687316004692
@@ -2562,7 +2490,7 @@ GameObject:
   m_Name: AirconLarge (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1275013878085194
@@ -2631,7 +2559,7 @@ GameObject:
   m_Name: AirconLarge (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1281102056723140
@@ -2666,7 +2594,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1285310968107448
@@ -2683,7 +2611,7 @@ GameObject:
   m_Name: Building42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1287490644781554
@@ -2704,24 +2632,6 @@ GameObject:
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!1 &1288804468255364
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4956332282515064}
-  - component: {fileID: 33876505549978912}
-  - component: {fileID: 23246543988796670}
-  - component: {fileID: 65931651958060202}
-  m_Layer: 0
-  m_Name: Office Chair (25)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
 --- !u!1 &1289162303269240
 GameObject:
   m_ObjectHideFlags: 1
@@ -2737,7 +2647,7 @@ GameObject:
   m_Name: DoorGlass001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1290514351408528
@@ -2755,7 +2665,7 @@ GameObject:
   m_Name: Office Chair (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1291485100584672
@@ -2791,7 +2701,7 @@ GameObject:
   m_Name: AirconLarge (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1298414668779410
@@ -2880,7 +2790,7 @@ GameObject:
   m_Name: Office Chair (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1306702382749066
@@ -2898,7 +2808,7 @@ GameObject:
   m_Name: Office Chair (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1307773530209874
@@ -2916,7 +2826,7 @@ GameObject:
   m_Name: AirconLarge (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1308413050463622
@@ -2934,7 +2844,7 @@ GameObject:
   m_Name: Office Chair (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1312475499478050
@@ -2951,7 +2861,7 @@ GameObject:
   m_Name: Railing01 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1314405456052188
@@ -2969,7 +2879,7 @@ GameObject:
   m_Name: AirconLarge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1315599064794692
@@ -2987,7 +2897,7 @@ GameObject:
   m_Name: Office Chair (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1317884028376430
@@ -3022,7 +2932,7 @@ GameObject:
   m_Name: Railing01 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1323686035843772
@@ -3057,7 +2967,7 @@ GameObject:
   m_Name: Railing01 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1329061379233966
@@ -3089,7 +2999,7 @@ GameObject:
   m_Name: Railing01 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1336519320436544
@@ -3107,7 +3017,7 @@ GameObject:
   m_Name: Office Chair (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1337613895681454
@@ -3124,7 +3034,7 @@ GameObject:
   m_Name: Railing01 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1337709970510538
@@ -3142,7 +3052,7 @@ GameObject:
   m_Name: Office Chair (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1338079731580198
@@ -3159,7 +3069,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1339361491391768
@@ -3176,7 +3086,7 @@ GameObject:
   m_Name: Building02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1340088816534504
@@ -3193,7 +3103,7 @@ GameObject:
   m_Name: Railing01 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1341185234644162
@@ -3228,7 +3138,7 @@ GameObject:
   m_Name: Railing01 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1346451794037656
@@ -3246,7 +3156,7 @@ GameObject:
   m_Name: Office Chair (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1346586599577020
@@ -3297,7 +3207,7 @@ GameObject:
   m_Name: AirconLarge (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1348399027232092
@@ -3315,7 +3225,7 @@ GameObject:
   m_Name: AirconLarge (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1354511737487040
@@ -3351,7 +3261,7 @@ GameObject:
   m_Name: AirconSmall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1356887162307756
@@ -3369,7 +3279,7 @@ GameObject:
   m_Name: AirconLarge (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1357094154496768
@@ -3405,7 +3315,7 @@ GameObject:
   m_Name: AirconLarge (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1359889418213874
@@ -3423,7 +3333,7 @@ GameObject:
   m_Name: AirconLarge (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1359996461005850
@@ -3456,7 +3366,7 @@ GameObject:
   m_Name: Office Chair (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1360624070218342
@@ -3474,7 +3384,7 @@ GameObject:
   m_Name: AirconLarge (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1366110752681798
@@ -3542,7 +3452,7 @@ GameObject:
   m_Name: Mug01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!1 &1372029990661726
@@ -3574,7 +3484,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1377774017063408
@@ -3609,7 +3519,7 @@ GameObject:
   m_Name: Railing01 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1381326722407580
@@ -3641,7 +3551,7 @@ GameObject:
   m_Name: Cylinder044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1385535459543578
@@ -3659,7 +3569,7 @@ GameObject:
   m_Name: AirconLarge (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1386031916578288
@@ -3677,7 +3587,7 @@ GameObject:
   m_Name: AirconLarge (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1387174191425132
@@ -3694,7 +3604,7 @@ GameObject:
   m_Name: Railing01 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1389139947332794
@@ -3712,7 +3622,7 @@ GameObject:
   m_Name: AirconLarge (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1389586139095168
@@ -3729,7 +3639,7 @@ GameObject:
   m_Name: Glass004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1390941390795474
@@ -3747,7 +3657,7 @@ GameObject:
   m_Name: Box617
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1392088237730392
@@ -3797,7 +3707,7 @@ GameObject:
   m_Name: Building02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1396958850225544
@@ -3829,7 +3739,7 @@ GameObject:
   m_Name: Railing01 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1399680224795064
@@ -3847,7 +3757,7 @@ GameObject:
   m_Name: AirconLarge (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1400949742383834
@@ -3865,7 +3775,7 @@ GameObject:
   m_Name: Office Chair (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1402640974486250
@@ -3883,7 +3793,7 @@ GameObject:
   m_Name: AirconLarge (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1402789210767758
@@ -3919,7 +3829,7 @@ GameObject:
   m_Name: Office Chair (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1405441419532074
@@ -3937,7 +3847,7 @@ GameObject:
   m_Name: DoorGlass001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1408053431421324
@@ -3954,7 +3864,7 @@ GameObject:
   m_Name: ProjectorScreen01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1409664040524862
@@ -3971,7 +3881,7 @@ GameObject:
   m_Name: Railing01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1411665683524088
@@ -3988,7 +3898,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1412165949037198
@@ -4006,7 +3916,7 @@ GameObject:
   m_Name: Office Chair (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1412491036728240
@@ -4041,7 +3951,7 @@ GameObject:
   m_Name: Railing01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1413071558611958
@@ -4058,7 +3968,7 @@ GameObject:
   m_Name: WindowFrame007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1416078218013878
@@ -4143,7 +4053,7 @@ GameObject:
   m_Name: Railing01 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1425435976783758
@@ -4160,7 +4070,7 @@ GameObject:
   m_Name: Building09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1427639610096620
@@ -4177,7 +4087,7 @@ GameObject:
   m_Name: CoffeeMaker01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1431305307088084
@@ -4194,7 +4104,7 @@ GameObject:
   m_Name: DoorGlassFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1435089015351858
@@ -4211,7 +4121,7 @@ GameObject:
   m_Name: Railing01 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1442864407396692
@@ -4228,7 +4138,7 @@ GameObject:
   m_Name: Glass002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1442947209750386
@@ -4263,7 +4173,7 @@ GameObject:
   m_Name: Railing01 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1447468326987576
@@ -4281,7 +4191,7 @@ GameObject:
   m_Name: Office Chair (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1448492787237314
@@ -4298,7 +4208,7 @@ GameObject:
   m_Name: Railing01 (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1448587696181606
@@ -4315,7 +4225,7 @@ GameObject:
   m_Name: Railing01 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1454131623850892
@@ -4368,7 +4278,7 @@ GameObject:
   m_Name: Office Chair (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1465413996014076
@@ -4386,7 +4296,7 @@ GameObject:
   m_Name: Office Chair (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1466334723224188
@@ -4403,7 +4313,7 @@ GameObject:
   m_Name: Railing01 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1470405789593360
@@ -4450,7 +4360,7 @@ GameObject:
   m_Name: Railing01 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1475186195312854
@@ -4468,7 +4378,7 @@ GameObject:
   m_Name: AirconLarge (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1478402753301462
@@ -4486,7 +4396,7 @@ GameObject:
   m_Name: Office Chair (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1479454919517590
@@ -4504,7 +4414,7 @@ GameObject:
   m_Name: AirconLarge (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1487941074278004
@@ -4522,7 +4432,7 @@ GameObject:
   m_Name: Trashcan (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1490532544553384
@@ -4540,7 +4450,7 @@ GameObject:
   m_Name: Office Chair (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1492183222693568
@@ -4587,7 +4497,7 @@ GameObject:
   m_Name: Railing01 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1494357383177348
@@ -4604,7 +4514,7 @@ GameObject:
   m_Name: Railing01 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1496291925557790
@@ -4622,7 +4532,7 @@ GameObject:
   m_Name: Office Chair (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1496830561792022
@@ -4670,7 +4580,7 @@ GameObject:
   m_Name: AirconLarge (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1502136051753266
@@ -4702,7 +4612,7 @@ GameObject:
   m_Name: Railing01 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1506959775246386
@@ -4719,7 +4629,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1509611335431368
@@ -4800,7 +4710,7 @@ GameObject:
   m_Name: Office Chair (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1520045515138334
@@ -4817,7 +4727,7 @@ GameObject:
   m_Name: Railing01 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1521513112783112
@@ -4849,7 +4759,7 @@ GameObject:
   m_Name: Railing01 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1528559426973266
@@ -4900,7 +4810,7 @@ GameObject:
   m_Name: Office Chair (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1536157083988712
@@ -4917,7 +4827,7 @@ GameObject:
   m_Name: Glass008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1539958363640418
@@ -4951,7 +4861,7 @@ GameObject:
   m_Name: Railing01 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1548115765814154
@@ -4987,7 +4897,7 @@ GameObject:
   m_Name: Office Chair (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1552167449483140
@@ -5106,7 +5016,7 @@ GameObject:
   m_Name: AirconLarge (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1559883162976700
@@ -5123,7 +5033,7 @@ GameObject:
   m_Name: Railing01 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1562891270458034
@@ -5140,7 +5050,7 @@ GameObject:
   m_Name: Railing01 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1568757687302430
@@ -5157,7 +5067,7 @@ GameObject:
   m_Name: Railing01 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1570416992015940
@@ -5175,7 +5085,7 @@ GameObject:
   m_Name: AirconLarge (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1571197277895302
@@ -5192,7 +5102,7 @@ GameObject:
   m_Name: Railing01 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1571489160655320
@@ -5209,7 +5119,7 @@ GameObject:
   m_Name: Building17 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1579485244524558
@@ -5227,7 +5137,7 @@ GameObject:
   m_Name: Office Chair (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1582465656512038
@@ -5260,7 +5170,7 @@ GameObject:
   m_Name: Office Chair (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1588781827775186
@@ -5277,7 +5187,7 @@ GameObject:
   m_Name: Railing01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1589607462451462
@@ -5294,7 +5204,7 @@ GameObject:
   m_Name: Glass007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1593275400249050
@@ -5311,7 +5221,7 @@ GameObject:
   m_Name: Railing01 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1595199241407156
@@ -5328,7 +5238,7 @@ GameObject:
   m_Name: Railing01 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1595753192890156
@@ -5363,7 +5273,7 @@ GameObject:
   m_Name: Building53 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1600656161519448
@@ -5380,7 +5290,7 @@ GameObject:
   m_Name: Railing01 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1600801242827836
@@ -5416,7 +5326,7 @@ GameObject:
   m_Name: AirconLarge (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1602595010081858
@@ -5433,7 +5343,7 @@ GameObject:
   m_Name: Railing01 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1604972742210776
@@ -5486,7 +5396,7 @@ GameObject:
   m_Name: Railing01 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1609180647354432
@@ -5504,7 +5414,7 @@ GameObject:
   m_Name: Office Chair (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1609304576399038
@@ -5522,7 +5432,7 @@ GameObject:
   m_Name: AirconLarge (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1610930693403588
@@ -5557,7 +5467,7 @@ GameObject:
   m_Name: Office Chair (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1616787490947072
@@ -5574,7 +5484,7 @@ GameObject:
   m_Name: Railing01 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1618409561471632
@@ -5606,7 +5516,7 @@ GameObject:
   m_Name: Projector01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1618804571863476
@@ -5676,7 +5586,7 @@ GameObject:
   m_Name: Railing01 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1628013344733560
@@ -5712,7 +5622,7 @@ GameObject:
   m_Name: AirconLarge (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1630774700179724
@@ -5762,7 +5672,7 @@ GameObject:
   m_Name: Railing01 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1643973854997288
@@ -5798,7 +5708,7 @@ GameObject:
   m_Name: Office Chair (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1648155976481858
@@ -5833,7 +5743,7 @@ GameObject:
   m_Name: Office Chair (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1649008311868580
@@ -5850,7 +5760,7 @@ GameObject:
   m_Name: Object012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1650675346452712
@@ -5867,25 +5777,7 @@ GameObject:
   m_Name: WindowFrame005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1652454651037034
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4174752464758978}
-  - component: {fileID: 33055417532575864}
-  - component: {fileID: 23513332804862680}
-  - component: {fileID: 65579127881105610}
-  m_Layer: 0
-  m_Name: Office Chair (54)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1653432200006580
@@ -5917,7 +5809,7 @@ GameObject:
   m_Name: Railing01 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1653508807361168
@@ -5934,7 +5826,7 @@ GameObject:
   m_Name: Building20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1656441496295278
@@ -5951,7 +5843,7 @@ GameObject:
   m_Name: GlassDoorFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1659954537173442
@@ -5968,7 +5860,7 @@ GameObject:
   m_Name: Ceiling04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1668626278946560
@@ -5985,7 +5877,7 @@ GameObject:
   m_Name: Railing01 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1668939551704514
@@ -6002,7 +5894,7 @@ GameObject:
   m_Name: WindowFrame006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1669623623926610
@@ -6019,7 +5911,7 @@ GameObject:
   m_Name: Railing01 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1671022850862546
@@ -6036,7 +5928,7 @@ GameObject:
   m_Name: Building53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1671486328178462
@@ -6054,7 +5946,7 @@ GameObject:
   m_Name: AirconLarge (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1672226304933080
@@ -6072,7 +5964,7 @@ GameObject:
   m_Name: AirconLarge (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1674498332521568
@@ -6107,7 +5999,7 @@ GameObject:
   m_Name: Railing01 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1676305772510618
@@ -6124,7 +6016,7 @@ GameObject:
   m_Name: Railing01 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1676948646803928
@@ -6141,7 +6033,7 @@ GameObject:
   m_Name: Building17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1678909580360910
@@ -6158,7 +6050,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1682412074114790
@@ -6175,7 +6067,7 @@ GameObject:
   m_Name: Railing01 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1683633512967446
@@ -6193,7 +6085,7 @@ GameObject:
   m_Name: AirconLarge (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1685086221532020
@@ -6211,7 +6103,7 @@ GameObject:
   m_Name: AirconLarge (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1691768129277886
@@ -6246,25 +6138,7 @@ GameObject:
   m_Name: Railing01 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1694781960030000
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4277866016594756}
-  - component: {fileID: 33262597731875186}
-  - component: {fileID: 23425731461363682}
-  - component: {fileID: 65323066569555372}
-  m_Layer: 0
-  m_Name: Office Chair (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1695029902146602
@@ -6299,7 +6173,7 @@ GameObject:
   m_Name: Object011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1700440298780878
@@ -6316,7 +6190,7 @@ GameObject:
   m_Name: WindowFrame004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1706651953400734
@@ -6334,7 +6208,7 @@ GameObject:
   m_Name: Office Chair (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1709304192756490
@@ -6351,7 +6225,7 @@ GameObject:
   m_Name: Railing01 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1712004765802306
@@ -6384,7 +6258,7 @@ GameObject:
   m_Name: AirconLarge (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1713276095557938
@@ -6401,7 +6275,7 @@ GameObject:
   m_Name: Building20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1714719544627688
@@ -6418,7 +6292,7 @@ GameObject:
   m_Name: Building09 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1716601532052834
@@ -6454,7 +6328,7 @@ GameObject:
   m_Name: AirconLarge (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1722313613062118
@@ -6486,7 +6360,7 @@ GameObject:
   m_Name: Railing01 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1722975668627444
@@ -6504,7 +6378,7 @@ GameObject:
   m_Name: Office Chair (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1723379986146050
@@ -6521,7 +6395,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1724075992608530
@@ -6539,7 +6413,7 @@ GameObject:
   m_Name: AirconLarge (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1726688794046964
@@ -6556,7 +6430,7 @@ GameObject:
   m_Name: Railing01 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1727086002359180
@@ -6591,7 +6465,7 @@ GameObject:
   m_Name: Railing01 (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1727954700224138
@@ -6608,7 +6482,7 @@ GameObject:
   m_Name: Railing01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1728102505212646
@@ -6625,7 +6499,7 @@ GameObject:
   m_Name: Railing01 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1728630010836110
@@ -6660,7 +6534,7 @@ GameObject:
   m_Name: Glass003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1729524423683444
@@ -6677,7 +6551,7 @@ GameObject:
   m_Name: Railing01 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1729536413557988
@@ -6694,7 +6568,7 @@ GameObject:
   m_Name: Railing01 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1733567856706978
@@ -6730,7 +6604,7 @@ GameObject:
   m_Name: AirconSmall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1737237715887748
@@ -6748,7 +6622,7 @@ GameObject:
   m_Name: Office Chair (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1737421487250802
@@ -6765,7 +6639,7 @@ GameObject:
   m_Name: GlassDoorFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1737878388826272
@@ -6782,7 +6656,7 @@ GameObject:
   m_Name: Glass001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1749459000407712
@@ -6817,7 +6691,7 @@ GameObject:
   m_Name: Railing01 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1755776839455746
@@ -6852,7 +6726,7 @@ GameObject:
   m_Name: DoorGlassFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1757653997659420
@@ -6870,7 +6744,7 @@ GameObject:
   m_Name: AirconLarge (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1774848058441112
@@ -6888,7 +6762,7 @@ GameObject:
   m_Name: Office Chair (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1775029335720256
@@ -6921,7 +6795,7 @@ GameObject:
   m_Name: AirconLarge (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1783058141208196
@@ -6938,7 +6812,7 @@ GameObject:
   m_Name: Railing01 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1783647163792270
@@ -6955,7 +6829,7 @@ GameObject:
   m_Name: Railing01 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1785853088911592
@@ -6991,7 +6865,7 @@ GameObject:
   m_Name: Office Chair (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1787675991092442
@@ -7027,7 +6901,7 @@ GameObject:
   m_Name: Office Chair (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1788817273917386
@@ -7045,7 +6919,7 @@ GameObject:
   m_Name: AirconLarge (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1791656207676894
@@ -7062,7 +6936,7 @@ GameObject:
   m_Name: Railing01 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1794887492224044
@@ -7080,7 +6954,7 @@ GameObject:
   m_Name: Trashcan (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1797651573078942
@@ -7098,7 +6972,7 @@ GameObject:
   m_Name: Office Chair (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1803759942529512
@@ -7116,7 +6990,7 @@ GameObject:
   m_Name: Office Chair (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1807173439908094
@@ -7134,7 +7008,7 @@ GameObject:
   m_Name: AirconLarge (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1807698621710480
@@ -7151,7 +7025,7 @@ GameObject:
   m_Name: Railing01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1810647372812022
@@ -7187,25 +7061,7 @@ GameObject:
   m_Name: Office Chair (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1815533312711466
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4815510429683426}
-  - component: {fileID: 33121962906508550}
-  - component: {fileID: 23776648352899684}
-  - component: {fileID: 65840825627797622}
-  m_Layer: 0
-  m_Name: Office Chair (44)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1818680260169142
@@ -7222,7 +7078,7 @@ GameObject:
   m_Name: Railing01 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1819692162775530
@@ -7273,7 +7129,7 @@ GameObject:
   m_Name: Office Chair (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1827142702538118
@@ -7290,7 +7146,7 @@ GameObject:
   m_Name: Railing01 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1829858019981708
@@ -7308,7 +7164,7 @@ GameObject:
   m_Name: Office Chair (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1830750414487504
@@ -7326,7 +7182,7 @@ GameObject:
   m_Name: AirconLarge (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1833722440158008
@@ -7344,7 +7200,7 @@ GameObject:
   m_Name: Office Chair (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1834586848738906
@@ -7416,7 +7272,7 @@ GameObject:
   m_Name: AirconLarge (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1838919427736906
@@ -7433,7 +7289,7 @@ GameObject:
   m_Name: Railing01 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1841426905082912
@@ -7451,7 +7307,7 @@ GameObject:
   m_Name: AirconLarge (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1842484354500438
@@ -7468,7 +7324,7 @@ GameObject:
   m_Name: Building02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1843841819927288
@@ -7485,7 +7341,7 @@ GameObject:
   m_Name: Railing01 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1844762709061638
@@ -7503,7 +7359,7 @@ GameObject:
   m_Name: Office Chair (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1844810435609604
@@ -7520,7 +7376,7 @@ GameObject:
   m_Name: Railing01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1845731652366216
@@ -7538,7 +7394,7 @@ GameObject:
   m_Name: Office Chair (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1850582481578614
@@ -7574,7 +7430,7 @@ GameObject:
   m_Name: Office Chair (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1854839036856316
@@ -7610,7 +7466,7 @@ GameObject:
   m_Name: Office Chair (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1860681728312122
@@ -7628,7 +7484,7 @@ GameObject:
   m_Name: Office Chair (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1862189122323822
@@ -7646,7 +7502,7 @@ GameObject:
   m_Name: AirconLarge (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1862696662726040
@@ -7664,7 +7520,7 @@ GameObject:
   m_Name: Office Chair (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1865891215185518
@@ -7682,7 +7538,7 @@ GameObject:
   m_Name: AirconLarge (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1866386134904336
@@ -7700,7 +7556,7 @@ GameObject:
   m_Name: Office Chair (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1871313238589664
@@ -7718,7 +7574,7 @@ GameObject:
   m_Name: AirconLarge (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1871966402759342
@@ -7751,7 +7607,7 @@ GameObject:
   m_Name: Office Chair (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1877897671848794
@@ -7768,7 +7624,7 @@ GameObject:
   m_Name: WindowFrame002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1879117916469178
@@ -7786,7 +7642,7 @@ GameObject:
   m_Name: Office Chair (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1883722889416020
@@ -7818,7 +7674,7 @@ GameObject:
   m_Name: Railing01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1890921634005712
@@ -7872,7 +7728,7 @@ GameObject:
   m_Name: AirconLarge (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1893934799205118
@@ -7890,7 +7746,7 @@ GameObject:
   m_Name: AirconSmall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1895179739726568
@@ -7925,7 +7781,7 @@ GameObject:
   m_Name: Railing01 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1911012118936340
@@ -7942,7 +7798,7 @@ GameObject:
   m_Name: Mug01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!1 &1915776629548690
@@ -7959,7 +7815,7 @@ GameObject:
   m_Name: Railing01 (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1917005227115888
@@ -7993,7 +7849,7 @@ GameObject:
   m_Name: Railing01 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1917522651338708
@@ -8026,7 +7882,7 @@ GameObject:
   m_Name: AirconLarge (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1920329833094878
@@ -8044,7 +7900,7 @@ GameObject:
   m_Name: AirconSmall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1927893594953042
@@ -8097,7 +7953,7 @@ GameObject:
   m_Name: DoorWood001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1931993748410314
@@ -8115,7 +7971,7 @@ GameObject:
   m_Name: Office Chair (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1935082187174828
@@ -8133,7 +7989,7 @@ GameObject:
   m_Name: Office Chair (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1939133719779890
@@ -8150,7 +8006,7 @@ GameObject:
   m_Name: Building35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1939200426574460
@@ -8167,7 +8023,7 @@ GameObject:
   m_Name: CoffeeMaker01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1942259924844222
@@ -8199,7 +8055,7 @@ GameObject:
   m_Name: Building09 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1943633265202070
@@ -8217,7 +8073,7 @@ GameObject:
   m_Name: Office Chair (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1948397063451496
@@ -8253,7 +8109,7 @@ GameObject:
   m_Name: AirconSmall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1958991906146136
@@ -8288,7 +8144,7 @@ GameObject:
   m_Name: Building02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1968358663813746
@@ -8305,7 +8161,7 @@ GameObject:
   m_Name: Railing01 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1978782239794916
@@ -8322,7 +8178,7 @@ GameObject:
   m_Name: Railing01 (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1979301829778014
@@ -8340,7 +8196,7 @@ GameObject:
   m_Name: Office Chair (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1982936632933608
@@ -8357,7 +8213,7 @@ GameObject:
   m_Name: Mug01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!1 &1983353971447792
@@ -8374,7 +8230,7 @@ GameObject:
   m_Name: Railing01 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1983854801019656
@@ -8391,7 +8247,7 @@ GameObject:
   m_Name: Railing01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1983864570209344
@@ -8408,7 +8264,7 @@ GameObject:
   m_Name: Railing01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1985151822260090
@@ -8425,7 +8281,7 @@ GameObject:
   m_Name: DoorWoodFrame001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1986465675654522
@@ -8443,7 +8299,7 @@ GameObject:
   m_Name: Office Chair (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1988744493557760
@@ -8495,7 +8351,7 @@ GameObject:
   m_Name: Railing01 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1999653709797794
@@ -8512,7 +8368,7 @@ GameObject:
   m_Name: Building10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4002599822521304
@@ -8662,7 +8518,7 @@ Transform:
   m_LocalScale: {x: 1.2500011, y: 1.2499999, z: 1.2500011}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 52
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 369.124, z: 0}
 --- !u!4 &4016536575803992
 Transform:
@@ -8787,7 +8643,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.25, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 39
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: -120.797005, z: 0}
 --- !u!4 &4033192413436260
 Transform:
@@ -8930,7 +8786,7 @@ Transform:
   m_LocalScale: {x: 1.2500007, y: 1.2499999, z: 1.2500007}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 70
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 111.718, z: 0}
 --- !u!4 &4052806369731672
 Transform:
@@ -9097,7 +8953,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 42
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: -125.267006, z: 0}
 --- !u!4 &4074796089292722
 Transform:
@@ -9149,7 +9005,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.2499999, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 50
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 174.12401, z: 0}
 --- !u!4 &4076103762503118
 Transform:
@@ -9162,7 +9018,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 54
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 356.266, z: 0}
 --- !u!4 &4081280422118780
 Transform:
@@ -9188,7 +9044,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 38
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: -164.408, z: 0}
 --- !u!4 &4085771500635370
 Transform:
@@ -9340,7 +9196,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -91.618004, z: 0}
 --- !u!4 &4120360239764068
 Transform:
@@ -9418,7 +9274,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -186.881, z: 0}
 --- !u!4 &4146265170004692
 Transform:
@@ -9536,7 +9392,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 55
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 374.427, z: 0}
 --- !u!4 &4164073517052140
 Transform:
@@ -9575,7 +9431,7 @@ Transform:
   m_LocalScale: {x: 1.2500011, y: 1.2499999, z: 1.2500011}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 68
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 84.124, z: 0}
 --- !u!4 &4171363360246698
 Transform:
@@ -9603,19 +9459,6 @@ Transform:
   m_Father: {fileID: 4678793712721036}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
---- !u!4 &4174752464758978
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1652454651037034}
-  m_LocalRotation: {x: -0, y: -0.6142665, z: -0, w: 0.7890986}
-  m_LocalPosition: {x: -9.03, y: 0, z: 39.5}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_Children: []
-  m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 45
-  m_LocalEulerAnglesHint: {x: 0, y: -75.797005, z: 0}
 --- !u!4 &4174999233813190
 Transform:
   m_ObjectHideFlags: 1
@@ -9706,7 +9549,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.25, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 34
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 28.514002, z: 0}
 --- !u!4 &4186500594165154
 Transform:
@@ -9745,7 +9588,7 @@ Transform:
   m_LocalScale: {x: 1.2500007, y: 1.2499999, z: 1.2500007}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 58
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 143.64, z: 0}
 --- !u!4 &4199609009577982
 Transform:
@@ -9918,7 +9761,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.25, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -169.065, z: 0}
 --- !u!4 &4214285313543382
 Transform:
@@ -10077,7 +9920,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -257.608, z: 0}
 --- !u!4 &4245540051403714
 Transform:
@@ -10313,19 +10156,6 @@ Transform:
   m_Father: {fileID: 4199609009577982}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 179.99998}
---- !u!4 &4277866016594756
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1694781960030000}
-  m_LocalRotation: {x: -0, y: -0.80626786, z: -0, w: 0.5915506}
-  m_LocalPosition: {x: -14.53, y: 0, z: 28.9}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_Children: []
-  m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: -107.466, z: 0}
 --- !u!4 &4278256241602126
 Transform:
   m_ObjectHideFlags: 1
@@ -10337,7 +10167,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 53
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 325.307, z: 0}
 --- !u!4 &4284722849605920
 Transform:
@@ -10393,9 +10223,6 @@ Transform:
   - {fileID: 4075228412307012}
   - {fileID: 4728863672789848}
   - {fileID: 4754427968971024}
-  - {fileID: 4582181757512370}
-  - {fileID: 4891469004924954}
-  - {fileID: 4815510429683426}
   - {fileID: 4369657738338604}
   m_Father: {fileID: 4289418615744940}
   m_RootOrder: 0
@@ -10447,14 +10274,12 @@ Transform:
   - {fileID: 4440003761771206}
   - {fileID: 4060304048005000}
   - {fileID: 4703415118299920}
-  - {fileID: 4277866016594756}
   - {fileID: 4409968269903034}
   - {fileID: 4690804159509552}
   - {fileID: 4414993933281640}
   - {fileID: 4965319392912620}
   - {fileID: 4889114476405226}
   - {fileID: 4540543613588886}
-  - {fileID: 4972501940960776}
   - {fileID: 4214146114162462}
   - {fileID: 4115903652528438}
   - {fileID: 4311941050519358}
@@ -10462,10 +10287,8 @@ Transform:
   - {fileID: 4241889752478946}
   - {fileID: 4317778447059818}
   - {fileID: 4140142666466090}
-  - {fileID: 4956332282515064}
   - {fileID: 4629335155036186}
   - {fileID: 4473779408259206}
-  - {fileID: 4863880318436598}
   - {fileID: 4360348535948152}
   - {fileID: 4306165069044372}
   - {fileID: 4574949742236110}
@@ -10481,7 +10304,6 @@ Transform:
   - {fileID: 4071620404172532}
   - {fileID: 4664404767738320}
   - {fileID: 4523677334302980}
-  - {fileID: 4174752464758978}
   - {fileID: 4948710383433948}
   - {fileID: 4399364440515596}
   - {fileID: 4482363982069126}
@@ -10522,7 +10344,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 36
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -182.51099, z: 0}
 --- !u!4 &4294542254066948
 Transform:
@@ -10602,7 +10424,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.25, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 40
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: -93.923004, z: 0}
 --- !u!4 &4301663662153662
 Transform:
@@ -10641,7 +10463,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 31
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -72.536, z: 0}
 --- !u!4 &4309008925737538
 Transform:
@@ -10680,7 +10502,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -206.67899, z: 0}
 --- !u!4 &4312233504420070
 Transform:
@@ -10732,7 +10554,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -332.526, z: 0}
 --- !u!4 &4325048543514916
 Transform:
@@ -10758,7 +10580,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 64
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 284.427, z: 0}
 --- !u!4 &4330813673165610
 Transform:
@@ -11047,7 +10869,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 30
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -72.536, z: 0}
 --- !u!4 &4360931556181288
 Transform:
@@ -11127,7 +10949,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.2499999, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 59
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 191.247, z: 0}
 --- !u!4 &4365462767344768
 Transform:
@@ -11155,7 +10977,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.2499999, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 61
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 53.640003, z: 0}
 --- !u!4 &4369657738338604
 Transform:
@@ -11168,7 +10990,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4285380849454080}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -90.478004, z: 0}
 --- !u!4 &4374324197336310
 Transform:
@@ -11259,7 +11081,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 69
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 279.124, z: 0}
 --- !u!4 &4384371139696526
 Transform:
@@ -11351,7 +11173,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.2499999, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 49
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 131.32301, z: 0}
 --- !u!4 &4395414013512980
 Transform:
@@ -11377,7 +11199,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.2499999, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 47
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: -9.482, z: 0}
 --- !u!4 &4399771150480760
 Transform:
@@ -11442,7 +11264,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.25, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -245.954, z: 0}
 --- !u!4 &4410059174199868
 Transform:
@@ -11483,7 +11305,7 @@ Transform:
   m_LocalScale: {x: 1.2500004, y: 1.25, z: 1.2500004}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 61.262, z: 0}
 --- !u!4 &4430999915673980
 Transform:
@@ -11620,7 +11442,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 57
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 203.63899, z: 0}
 --- !u!4 &4447660715419850
 Transform:
@@ -11698,7 +11520,7 @@ Transform:
   m_LocalScale: {x: 1.2500007, y: 1.25, z: 1.2500007}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -150.945, z: 0}
 --- !u!4 &4465113174983354
 Transform:
@@ -11711,7 +11533,7 @@ Transform:
   m_LocalScale: {x: 1.2500007, y: 1.2499999, z: 1.2500007}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 62
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 113.63901, z: 0}
 --- !u!4 &4468368014628314
 Transform:
@@ -11776,7 +11598,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 28
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -59.857002, z: 0}
 --- !u!4 &4474607687244104
 Transform:
@@ -11789,7 +11611,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 37
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 32.603, z: 0}
 --- !u!4 &4477735553052354
 Transform:
@@ -11841,7 +11663,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 48
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 2.8630002, z: 0}
 --- !u!4 &4484027656261490
 Transform:
@@ -11997,7 +11819,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 44
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -53.443, z: 0}
 --- !u!4 &4524530387817832
 Transform:
@@ -12130,7 +11952,7 @@ Transform:
   m_LocalScale: {x: 1.2500002, y: 1.25, z: 1.2500002}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 286.75, z: 0}
 --- !u!4 &4547292294759992
 Transform:
@@ -12299,7 +12121,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 71
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 88.553, z: 0}
 --- !u!4 &4572707456503280
 Transform:
@@ -12366,7 +12188,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.25, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 32
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -279.425, z: 0}
 --- !u!4 &4579397183928044
 Transform:
@@ -12381,19 +12203,6 @@ Transform:
   m_Father: {fileID: 4678793712721036}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 90.00001}
---- !u!4 &4582181757512370
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1157498459136182}
-  m_LocalRotation: {x: 0.000000007698675, y: -0.779443, z: 0.0000000075351805, w: 0.6264732}
-  m_LocalPosition: {x: 4.07, y: 0, z: 41.2}
-  m_LocalScale: {x: 1.250001, y: 1.25, z: 1.250001}
-  m_Children: []
-  m_Father: {fileID: 4285380849454080}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: -102.41901, z: 0}
 --- !u!4 &4582729145441996
 Transform:
   m_ObjectHideFlags: 1
@@ -12751,7 +12560,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 27
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -217.48299, z: 0}
 --- !u!4 &4630407410461926
 Transform:
@@ -12817,7 +12626,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 66
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 235.30699, z: 0}
 --- !u!4 &4638766421319458
 Transform:
@@ -12843,7 +12652,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 67
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 279.124, z: 0}
 --- !u!4 &4639621492264446
 Transform:
@@ -12960,7 +12769,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 43
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -98.44301, z: 0}
 --- !u!4 &4664459578691260
 Transform:
@@ -13279,7 +13088,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 36.141003, z: 0}
 --- !u!4 &4695599422785838
 Transform:
@@ -13305,7 +13114,7 @@ Transform:
   m_LocalScale: {x: 1.2499999, y: 1.2499999, z: 1.2499999}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 56
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 323.64, z: 0}
 --- !u!4 &4700805809671496
 Transform:
@@ -13755,7 +13564,7 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 41
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: -172.016, z: 0}
 --- !u!4 &4764139369137892
 Transform:
@@ -13953,7 +13762,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 63
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 233.63998, z: 0}
 --- !u!4 &4800379285880840
 Transform:
@@ -14007,7 +13816,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.2499999, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 65
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 266.266, z: 0}
 --- !u!4 &4806951857667850
 Transform:
@@ -14061,21 +13870,8 @@ Transform:
   m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 35
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 9.857, z: 0}
---- !u!4 &4815510429683426
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1815533312711466}
-  m_LocalRotation: {x: -0.833513, y: -0.5486653, z: 0.054277785, w: 0.03572927}
-  m_LocalPosition: {x: 1.27, y: 0.596, z: 41.3}
-  m_LocalScale: {x: 1.2500002, y: 1.2500014, z: 1.2500011}
-  m_Children: []
-  m_Father: {fileID: 4285380849454080}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: -180, y: 7.451996, z: -66.70999}
 --- !u!4 &4817476649407910
 Transform:
   m_ObjectHideFlags: 1
@@ -14256,7 +14052,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.25, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 33
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: -148.462, z: 0}
 --- !u!4 &4837717017271352
 Transform:
@@ -14468,19 +14264,6 @@ Transform:
   m_Father: {fileID: 4199609009577982}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 179.99998}
---- !u!4 &4863880318436598
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1050462421996362}
-  m_LocalRotation: {x: 0.000000007698675, y: -0.779443, z: 0.0000000075351805, w: 0.6264732}
-  m_LocalPosition: {x: 1.79, y: 0, z: 39.61}
-  m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
-  m_Children: []
-  m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: -102.41901, z: 0}
 --- !u!4 &4867100941817302
 Transform:
   m_ObjectHideFlags: 1
@@ -14531,7 +14314,7 @@ Transform:
   m_LocalScale: {x: 1.2500008, y: 1.2499999, z: 1.2500008}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 60
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 101.247, z: 0}
 --- !u!4 &4878553148466588
 Transform:
@@ -14665,7 +14448,7 @@ Transform:
   m_LocalScale: {x: 1.2500004, y: 1.25, z: 1.2500004}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 301.309, z: 0}
 --- !u!4 &4889737013225018
 Transform:
@@ -14680,19 +14463,6 @@ Transform:
   m_Father: {fileID: 4630407410461926}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -205.27899, z: 0}
---- !u!4 &4891469004924954
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1047097616935514}
-  m_LocalRotation: {x: 0.00000000628311, y: -0.6596631, z: 0.000000008750489, w: 0.75156146}
-  m_LocalPosition: {x: 3.17, y: 0, z: 41.2}
-  m_LocalScale: {x: 1.2500002, y: 1.25, z: 1.2500002}
-  m_Children: []
-  m_Father: {fileID: 4285380849454080}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: -82.548004, z: 0}
 --- !u!4 &4891937550323474
 Transform:
   m_ObjectHideFlags: 1
@@ -14967,7 +14737,7 @@ Transform:
   m_LocalScale: {x: 1.2500011, y: 1.2499999, z: 1.2500011}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 51
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 76.993004, z: 0}
 --- !u!4 &4932759428134014
 Transform:
@@ -15034,7 +14804,7 @@ Transform:
   m_LocalScale: {x: 1.2500001, y: 1.2499999, z: 1.2500001}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 46
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 74.41901, z: 0}
 --- !u!4 &4955684684471248
 Transform:
@@ -15075,19 +14845,6 @@ Transform:
   m_Father: {fileID: 4630407410461926}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
---- !u!4 &4956332282515064
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1288804468255364}
-  m_LocalRotation: {x: -0, y: -0.99397147, z: -0, w: -0.10963927}
-  m_LocalPosition: {x: 5.35, y: 0, z: 38.18}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_Children: []
-  m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: -192.58899, z: 0}
 --- !u!4 &4960422903666746
 Transform:
   m_ObjectHideFlags: 1
@@ -15138,7 +14895,7 @@ Transform:
   m_LocalScale: {x: 1.2499998, y: 1.25, z: 1.2499998}
   m_Children: []
   m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 94.33401, z: 0}
 --- !u!4 &4970989930098924
 Transform:
@@ -15153,19 +14910,6 @@ Transform:
   m_Father: {fileID: 4739823665770026}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
---- !u!4 &4972501940960776
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139900871806128}
-  m_LocalRotation: {x: -0, y: -0.61966145, z: -0, w: 0.78486925}
-  m_LocalPosition: {x: -10.03, y: 0, z: 29.6}
-  m_LocalScale: {x: 1.2500005, y: 1.25, z: 1.2500005}
-  m_Children: []
-  m_Father: {fileID: 4289418615744940}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: -76.583, z: 0}
 --- !u!4 &4974110546817804
 Transform:
   m_ObjectHideFlags: 1
@@ -18200,38 +17944,6 @@ MeshRenderer:
     type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!23 &23228013073497048
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1157498459136182}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.85
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
 --- !u!23 &23231637977279628
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -18521,38 +18233,6 @@ MeshRenderer:
     type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!23 &23246543988796670
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1288804468255364}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.9
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
 --- !u!23 &23252436839207224
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -18743,7 +18423,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23271500019958686
@@ -20305,7 +19986,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1.5
+  m_ScaleInLightmap: 2
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20508,38 +20189,6 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 111300000, guid: 1f976ccaaeb20c74d938c9500d0f363b,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23425731461363682
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1694781960030000}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.9
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
     type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -21662,7 +21311,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23496529976855618
@@ -21757,7 +21407,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23497397308864990
@@ -22012,7 +21663,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23508056653021780
@@ -22068,38 +21720,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1.5
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23510639779928110
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1047097616935514}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.85
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22205,38 +21825,6 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 111300000, guid: a9fc8a0302d4bd244b439a607b868d78,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23513332804862680
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1652454651037034}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.9
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
     type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -22589,7 +22177,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23540139741493140
@@ -23136,7 +22725,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23572105999457548
@@ -23167,7 +22757,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23582632111052192
@@ -23596,38 +23187,6 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1156136558676324}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.9
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23619120708629922
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139900871806128}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -24261,7 +23820,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23671809957393664
@@ -24414,38 +23974,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23682760586167362
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1050462421996362}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.9
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -25777,38 +25305,6 @@ MeshRenderer:
     type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!23 &23776648352899684
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1815533312711466}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 66696dde7cafb7b43b046ef1011484e1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.85
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 111300000, guid: 5c10739c40b86734a978bb71d7334402,
-    type: 2}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
 --- !u!23 &23776726232047864
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -26095,7 +25591,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23804169860129132
@@ -28119,7 +27616,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23913162985701422
@@ -29305,7 +28803,8 @@ MeshRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 111300000, guid: 48c25358cffd4c7459286a6cab3a39b3,
+    type: 2}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &23999861150718142
@@ -29543,13 +29042,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1392088237730392}
   m_Mesh: {fileID: 4300000, guid: bccc17b56ce4dec479cbb11bdfee1389, type: 3}
---- !u!33 &33055417532575864
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1652454651037034}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33058201909647222
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -29752,13 +29244,6 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854710389303412}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
---- !u!33 &33121962906508550
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1815533312711466}
   m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33122296760012366
 MeshFilter:
@@ -30180,13 +29665,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1787675991092442}
   m_Mesh: {fileID: 4300000, guid: dc8494eb0b7ea3a4e9b83777e308acf9, type: 3}
---- !u!33 &33260865502720002
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1050462421996362}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33261048341952482
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -30208,13 +29686,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1794887492224044}
   m_Mesh: {fileID: 4300000, guid: 4ad63c2fd73825e479973f2ac7b3816e, type: 3}
---- !u!33 &33262597731875186
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1694781960030000}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33265840409239742
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -30453,13 +29924,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1502567756431928}
   m_Mesh: {fileID: 4300000, guid: 2767c91d741baee4d97ec0274724fdc7, type: 3}
---- !u!33 &33346047659377530
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1157498459136182}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33347095614547290
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -30705,13 +30169,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1377774017063408}
   m_Mesh: {fileID: 4300000, guid: 89a0b6f3a671992499c0932fe1a480de, type: 3}
---- !u!33 &33444349846253344
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1047097616935514}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33445442817856614
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -31986,13 +31443,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1728750036544536}
   m_Mesh: {fileID: 4300012, guid: 77f6aca4d782ad242a5af267b0b574a3, type: 3}
---- !u!33 &33876505549978912
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1288804468255364}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!33 &33881930243395272
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -32378,13 +31828,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1692452239263834}
   m_Mesh: {fileID: 4300000, guid: 2767c91d741baee4d97ec0274724fdc7, type: 3}
---- !u!33 &33993007749842422
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139900871806128}
-  m_Mesh: {fileID: 4300000, guid: 7c08c2fb47c55c8428a6189d2287412f, type: 3}
 --- !u!64 &64246076437177820
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -32987,18 +32430,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
   m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
---- !u!65 &65194665468965802
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1047097616935514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65219352674222886
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -33257,18 +32688,6 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609180647354432}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
---- !u!65 &65323066569555372
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1694781960030000}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -33875,18 +33294,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
   m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
---- !u!65 &65579127881105610
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1652454651037034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65580615852911396
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -34247,18 +33654,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
   m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
---- !u!65 &65687399492703004
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1050462421996362}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65701104221362506
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -34427,18 +33822,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
   m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
---- !u!65 &65762380331133150
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139900871806128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65764579103523654
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -34571,18 +33954,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.66947645, y: 0.567801, z: 0.6591618}
   m_Center: {x: -0.0040873145, y: 0.2826439, z: -0.0024399608}
---- !u!65 &65809648070572380
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1157498459136182}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65824089439161872
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -34631,18 +34002,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.66947645, y: 0.567801, z: 0.6591618}
   m_Center: {x: -0.0040873145, y: 0.2826439, z: -0.0024399608}
---- !u!65 &65840825627797622
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1815533312711466}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65844575839447640
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -34871,18 +34230,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8602147, y: 6.180636, z: 3.5526114}
   m_Center: {x: 5.595169, y: 12.307148, z: 1.7653008}
---- !u!65 &65931651958060202
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1288804468255364}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6833733, y: 1.3159981, z: 0.6465781}
-  m_Center: {x: 0.0046097934, y: 0.65734553, z: -0.021272555}
 --- !u!65 &65938188025049946
 BoxCollider:
   m_ObjectHideFlags: 1
