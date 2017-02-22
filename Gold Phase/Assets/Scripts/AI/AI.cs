@@ -48,7 +48,7 @@ public class AI : AIFunctions {
     float stateChangeTimer;
     float inCoverTimer;
     bool recentlyGotPoint;
-    float retaliationTimer;
+    public float retaliationTimer;
 
     void Start() {
         gameObject.tag = "Enemy";
@@ -170,15 +170,17 @@ public class AI : AIFunctions {
 
                             RaycastHit hit;
 
-                            if (Physics.Linecast(new Vector3(destination.x, minHeightForCover.position.y, destination.z), target.position, out hit))
-                                if (hit.transform.root == target) {
+                            if (retaliationTimer < Time.time) {
+                                if (Physics.Linecast(new Vector3(destination.x, minHeightForCover.position.y, destination.z), target.position, out hit))
+                                    if (hit.transform.root == target) {
+                                        destination = GetDestinationPoint(range, ableToHide);
+                                        inCoverTimer = Time.time;
+                                    }
+
+                                if ((target.position - transform.position).sqrMagnitude > range * range) {
                                     destination = GetDestinationPoint(range, ableToHide);
                                     inCoverTimer = Time.time;
                                 }
-
-                            if ((target.position - transform.position).sqrMagnitude > range * range) {
-                                destination = GetDestinationPoint(range, ableToHide);
-                                inCoverTimer = Time.time;
                             }
                         }
                     } else {
@@ -209,17 +211,16 @@ public class AI : AIFunctions {
         bool tempVar = ableToHide;
 
         if (retaliationTimer > Time.time) {
-            //Debug.Log("Working");
             tempVar = false;
             targetRange = (target.position - transform.position).magnitude;
+
+            Debug.Log(targetRange);
 
             if (targetRange > range)
                 targetRange = range;
         }
 
-        //Debug.Log(retaliationTimer + " " + Time.time);
-
-        return base.GetDestinationPoint(range, tempVar);
+        return base.GetDestinationPoint(targetRange, tempVar);
     }
 
     public void Attack() {
@@ -266,13 +267,13 @@ public class AI : AIFunctions {
                     //Health hp = targetHit.GetComponent<Health>();
                     AIFunctions ai;
                     //if (hp && hp.isActiveAndEnabled)
-                        //hp.ReceiveDamage(damage);
+                    //hp.ReceiveDamage(damage);
 
                     if (targetHit.tag == "Player")
                         if (ableToDragPlayerOutOfCover) {
-//CoverSystem inst = targetHit.GetComponent<CoverSystem>();
-                           // if (inst)
-                                //inst.EnableController();
+                            //CoverSystem inst = targetHit.GetComponent<CoverSystem>();
+                            // if (inst)
+                            //inst.EnableController();
                         }
 
                     if ((ai = targetHit.GetComponent<AIFunctions>()) != null)

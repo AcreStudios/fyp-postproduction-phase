@@ -30,7 +30,7 @@ public class AIFunctions : MonoBehaviour {
     public float range;
 
     bool ableToGetPoint;
-    
+
 
     void Awake() {
         ableToGetPoint = true;
@@ -46,6 +46,7 @@ public class AIFunctions : MonoBehaviour {
         AIOverseer.instance.AIHostileRadius(transform.position, range);
         AIOverseer.instance.AIHostileRadius(target.position, range);
 
+        destination = GetDestinationPoint(range, ableToHide);
         // if (hpScript.curHealth <= 0)
         // enabled = false;
     }
@@ -55,7 +56,7 @@ public class AIFunctions : MonoBehaviour {
         obj.transform.position = location;
     }
 
-    public virtual Vector3 GetDestinationPoint(float targetRange,bool hide) {
+    public virtual Vector3 GetDestinationPoint(float targetRange, bool hide) {
         if (!ableToGetPoint || !target)
             return destination;
 
@@ -128,13 +129,16 @@ public class AIFunctions : MonoBehaviour {
 
     public Vector3 ArcBasedPosition(Vector3 givenVector, Vector3 targetPos, float givenLength) {
         givenVector.y = 0;
-        targetPos.y = transform.position.y;
+        Debug.Log("Working");
 
         Vector3 gradient = Mathf.Abs(givenVector.x) >= Mathf.Abs(givenVector.z) ? givenVector / Mathf.Abs(givenVector.x) : givenVector / Mathf.Abs(givenVector.z);
 
         for (var i = -givenLength; i < givenLength + 1; i++) {
             Vector3 currentPosInCircle = gradient * i;
             Vector3 reflexedGradient = new Vector3(-(gradient.z), 0, gradient.x) * (givenLength - Mathf.Abs(i));
+
+            //Debug.DrawLine(targetPos, targetPos + (Vector3.Normalize(currentPosInCircle - reflexedGradient) * givenLength), Color.black, 5);
+            //Debug.DrawLine(targetPos, targetPos + (Vector3.Normalize(currentPosInCircle + reflexedGradient) * givenLength), Color.black, 5);
 
             if (CheckIfPosAvail(targetPos + (Vector3.Normalize(currentPosInCircle - reflexedGradient) * givenLength)))
                 return targetPos + (Vector3.Normalize(currentPosInCircle - reflexedGradient) * givenLength);
