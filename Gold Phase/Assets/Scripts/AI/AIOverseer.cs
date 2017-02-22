@@ -76,14 +76,18 @@ public class AIOverseer : MonoBehaviour {
 
     public void PlayRandomSound(AudioClip[] audioGroup, Vector3 position) {
         //if (audioGroup.Length > 0)
-            //SoundManager.instance.PlaySoundOnce(position, audioGroup[Random.Range(0, audioGroup.Length)]);
+        //SoundManager.instance.PlaySoundOnce(position, audioGroup[Random.Range(0, audioGroup.Length)]);
     }
 
     public void SpawnOnRandomFloor(GameObject civillian) {
-        MeshFilter floorChoose = floors[Random.Range(0, floors.Length)];
+        Instantiate(civillian, RandomWorldLocation(), Quaternion.identity);
+    }
 
+    public Vector3 RandomWorldLocation() {
+        MeshFilter floorChoose = floors[Random.Range(0, floors.Length)];
         Vector3 spawnLocation = floorChoose.mesh.vertices[Random.Range(0, floorChoose.mesh.vertices.Length)];
-        Instantiate(civillian, new Vector3(spawnLocation.x * floorChoose.transform.localScale.x, 0, spawnLocation.z * floorChoose.transform.localScale.z) + floorChoose.transform.position, Quaternion.identity);
+
+        return new Vector3(spawnLocation.x * floorChoose.transform.localScale.x, 0, spawnLocation.z * floorChoose.transform.localScale.z) + floorChoose.transform.position;
     }
 
     public void AIHostileRadius(Vector3 pos, float radius) {
