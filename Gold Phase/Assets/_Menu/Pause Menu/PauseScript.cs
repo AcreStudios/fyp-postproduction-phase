@@ -279,10 +279,10 @@ public class PauseScript : MonoBehaviour {
         currentState = "MOQCNo";
     }
     public void SelectReloadYes() {
-        //Reload Game
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void SelectQuitTitleYes() {
-        SceneManager.LoadScene("Menu Return");
+        SceneManager.LoadScene("Menu");
     }
     public void SelectQuitYes() {
         Application.Quit();

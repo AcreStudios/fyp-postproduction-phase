@@ -377,7 +377,7 @@ public class MenuScript : MonoBehaviour {
         SceneManager.LoadScene("AcreHQ_EventTree");
     }
     public void SelectExterior() {
-        //SceneManager.LoadScene("Eden");
+        SceneManager.LoadScene("Eden_EventTree");
     }
     #endregion
 
