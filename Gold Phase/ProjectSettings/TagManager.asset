@@ -9,6 +9,8 @@ TagManager:
   - Civillian
   - Floor
   - Joints
+  - Obstacles
+  - NearPlayer
   layers:
   - Default
   - TransparentFX
