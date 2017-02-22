@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 19567626}
   - component: {fileID: 11445470}
   - component: {fileID: 13664008}
-  - component: {fileID: 9586144}
   - component: {fileID: 114619088912583998}
+  - component: {fileID: 9586144}
+  - component: {fileID: 143405067142750774}
   m_Layer: 0
   m_Name: TazerAI
   m_TagString: Enemy
@@ -42,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0495577, y: 2.892643, z: 5.0654063}
+  m_LocalPosition: {x: -1.4095578, y: 2.892643, z: -4.233746}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000012195923668}
@@ -104,22 +105,23 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destinationMarker: {fileID: 136000012030540420}
   target: {fileID: 0}
-  knowsTarget: 1
+  knowsTarget: 0
   coverType: 0
-  range: 20
+  range: 1
   hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
   camp: 0
-  retaliationTiming: 5
+  retaliationTiming: 0
   damage: 1
   attackType: 1
   weaponOffset: {x: 0, y: 1.276, z: 0}
   attackInterval: 1
-  ableToDragPlayerOutOfCover: 1
-  gunSprayValue: 0
-  bullets: []
+  ableToDragPlayerOutOfCover: 0
+  gunSprayValue: 1
+  bullets:
+  - {fileID: 114000011921450816}
   areaTestRadius: 1
   damageTest: 0
   displayDebugMessage: 0
@@ -423,7 +425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1070398826082208
 GameObject:
   m_ObjectHideFlags: 1
@@ -2029,7 +2031,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011491249466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01999998, y: 0.92864513, z: 0}
+  m_LocalPosition: {x: 0.02, y: 0.9286452, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405478}
@@ -2042,7 +2044,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012049455072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9286452, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405478}
@@ -3879,8 +3881,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.36388016, y: 0.17063314, z: 0.261435}
-  m_Center: {x: 0, y: -0.022010237, z: -0.024871677}
+  m_Size: {x: 0.36388004, y: 0.17063308, z: 0.26143503}
+  m_Center: {x: -0.000000059604645, y: -0.022010207, z: -0.024871677}
 --- !u!65 &65667012444168532
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -3891,8 +3893,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3559981, y: 0.25997692, z: 0.36388016}
-  m_Center: {x: -0.17799908, y: -0.027550697, z: 0}
+  m_Size: {x: 0.3559982, y: 0.25997692, z: 0.36388004}
+  m_Center: {x: -0.17799912, y: -0.027550697, z: 0.000000059604645}
 --- !u!96 &96000010774298106
 TrailRenderer:
   serializedVersion: 2
@@ -3907,7 +3909,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a1cc39318ee2e2149a2060f2d3d81843, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3925,7 +3927,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -3950,19 +3952,19 @@ TrailRenderer:
     colorGradient:
       key0:
         serializedVersion: 2
-        rgba: 4278190080
+        rgba: 4278190335
       key1:
         serializedVersion: 2
-        rgba: 4278190080
+        rgba: 4278190335
       key2:
         serializedVersion: 2
-        rgba: 4278190080
+        rgba: 4278190335
       key3:
         serializedVersion: 2
-        rgba: 4278190080
+        rgba: 4278190335
       key4:
         serializedVersion: 2
-        rgba: 0
+        rgba: 255
       key5:
         serializedVersion: 2
         rgba: 0
@@ -3994,7 +3996,7 @@ TrailRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 1
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
 --- !u!114 &114000011921450816
@@ -4009,10 +4011,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toGetColor: {fileID: 0}
-  startPoint: {fileID: 0}
+  startPoint: {fileID: 435714}
   endPoint: {x: 0, y: 0, z: 0}
   rateOfDecay: 0.1
-  speed: 0
+  speed: 5
 --- !u!114 &114619088912583998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4049,8 +4051,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.09097004
-  m_Center: {x: -0.09097004, y: 0, z: 0}
+  m_Radius: 0.09097001
+  m_Center: {x: -0.09097001, y: 0, z: 0}
 --- !u!136 &136000012030540420
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -4099,10 +4101,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.08142798
-  m_Height: 0.40713987
+  m_Radius: 0.081428014
+  m_Height: 0.40714005
   m_Direction: 0
-  m_Center: {x: -0.20356993, y: 0, z: 0}
+  m_Center: {x: -0.20357002, y: 0, z: 0}
 --- !u!136 &136247702441040922
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -4112,10 +4114,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.050694946
-  m_Height: 0.20277978
+  m_Radius: 0.050694987
+  m_Height: 0.20277995
   m_Direction: 0
-  m_Center: {x: 0.10138989, y: 0, z: 0}
+  m_Center: {x: 0.101389974, y: 0, z: 0}
 --- !u!136 &136252026497375172
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -4138,10 +4140,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.07996357
-  m_Height: 0.39981785
+  m_Radius: 0.07996356
+  m_Height: 0.3998178
   m_Direction: 0
-  m_Center: {x: 0.19990893, y: 0, z: 0}
+  m_Center: {x: 0.1999089, y: 0, z: 0}
 --- !u!136 &136688883896560894
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -4164,10 +4166,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.050694965
-  m_Height: 0.20277986
+  m_Radius: 0.05069496
+  m_Height: 0.20277984
   m_Direction: 0
-  m_Center: {x: -0.10138993, y: 0, z: 0}
+  m_Center: {x: -0.10138992, y: 0, z: 0}
 --- !u!137 &137045293913641228
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -4229,7 +4231,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b24a266914a23dd45ae7005af373bfff, type: 2}
+  - {fileID: 2100000, guid: 42f1dae5719e42741b99d6d6f51d9a34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4382,7 +4384,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e12b0773d589e724c8103ec23aea5777, type: 2}
+  - {fileID: 2100000, guid: 99bd4de8a3ff65741be68cabde5f05c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4429,7 +4431,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e12b0773d589e724c8103ec23aea5777, type: 2}
+  - {fileID: 2100000, guid: 99bd4de8a3ff65741be68cabde5f05c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4478,7 +4480,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: fccd0e109e3a19b4695c0461e96fdaaa, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4565,7 +4567,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: fddfcc4c68a6fce4a9b39b9d50876afa, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4661,7 +4663,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b14919a9ec4a75644a0abe3061654f8d, type: 2}
+  - {fileID: 2100000, guid: e79ba5f1d01d8a04398945d0d148beb8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4763,7 +4765,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5701a96c03895d549b8f7184301a32d3, type: 2}
+  - {fileID: 2100000, guid: a7c23e046e45f884984d8de4339fed62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4905,7 +4907,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f0e30e62e5e660748b6bc81cde56c5d6, type: 2}
+  - {fileID: 2100000, guid: 20a0b7a86eca5db45a0e4b237c0c443c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5002,7 +5004,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 26b2dba90621df449a121819289a87ee, type: 2}
+  - {fileID: 2100000, guid: f98f4fea1263f5d478ea7d4af2f55eeb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5091,6 +5093,23 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000014305115, y: 0.23593946, z: 0.006289229}
     m_Extent: {x: 0.20662461, y: 0.28898793, z: 0.1907571}
   m_DirtyAABB: 0
+--- !u!143 &143405067142750774
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!144 &144024097788459278
 CharacterJoint:
   m_ObjectHideFlags: 1
@@ -5101,7 +5120,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.109999895, y: -0.107326746, z: -0.02974338}
+  m_ConnectedAnchor: {x: 0.110000014, y: -0.107326746, z: -0.02974338}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -5269,7 +5288,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: -1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.35599822, y: 0.0017796457, z: -0.18194008}
+  m_ConnectedAnchor: {x: -0.35599822, y: 0.0017796457, z: -0.18193996}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -5395,7 +5414,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000010430813, y: -0.42000002, z: 0.010000209}
+  m_ConnectedAnchor: {x: 0.000000014901161, y: -0.42000002, z: 0.010000209}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -5479,7 +5498,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.20277984, y: -0.000002829358, z: -0.0032100677}
+  m_ConnectedAnchor: {x: 0.20277995, y: -0.0000028964132, z: -0.0032100677}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: -1, z: 0}
   m_TwistLimitSpring:
