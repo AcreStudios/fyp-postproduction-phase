@@ -769,6 +769,7 @@ MonoBehaviour:
     LMB: Fire1
     RMB: Fire2
     ReloadKey: Reload
+    CoverKey: Cover
   horizontal: 0
   vertical: 0
   leftShift: 0
@@ -778,6 +779,7 @@ MonoBehaviour:
   RMB: 0
   MMB: 0
   reloadKey: 0
+  coverKey: 0
 --- !u!114 &114307403361998160
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -23,6 +23,8 @@ public class PlayerInputManager : MonoBehaviour
 	public float mouseX, mouseY;
 	[HideInInspector]
 	public bool LMB, RMB, MMB, reloadKey;
+	[HideInInspector]
+	public bool coverKey;
 
 
 	void Awake() 
@@ -62,6 +64,8 @@ public class PlayerInputManager : MonoBehaviour
 		RMB = Input.GetMouseButton(1);
 		MMB = Input.GetMouseButtonDown(2);
 		reloadKey = Input.GetKeyDown(KeyCode.R);
+
+		coverKey = Input.GetKey(KeyCode.Space);
 	}
 
 	[Serializable]
@@ -75,5 +79,6 @@ public class PlayerInputManager : MonoBehaviour
 		public string LMB = "Fire1";
 		public string RMB = "Fire2";
 		public string ReloadKey = "Reload";
+		public string CoverKey = "Cover";
 	}
 }

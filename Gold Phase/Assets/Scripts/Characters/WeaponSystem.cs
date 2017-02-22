@@ -77,7 +77,7 @@ public class WeaponSystem : MonoBehaviour
 	private void UpdateWeaponLogic() 
 	{
 		// Aim
-		aiming = playerInput.RMB || DebugAim;
+		aiming = tpCam.GetAimState() || DebugAim;
 		if(aiming)
 			Aim();
 
@@ -155,7 +155,7 @@ public class WeaponSystem : MonoBehaviour
 
 	private void Shoot(Vector3 start, Vector3 dir, RaycastHit hit) // Shoot bullet 
 	{
-		if(CurrentAmmo <= 0 || shootCooldown || !BulletSpawnPoint)
+		if(CurrentAmmo <= 0 || shootCooldown || !BulletSpawnPoint || reloading)
 			return;
 
 		// Bullet spread
@@ -180,8 +180,6 @@ public class WeaponSystem : MonoBehaviour
 				ai.DamageRecieved();
 
 			BulletImpactLogic(hit);
-
-			
 		}
 
 		// Muzzle flash
@@ -216,6 +214,9 @@ public class WeaponSystem : MonoBehaviour
 
 		if(combatUI)
 			combatUI.UpdateAmmobar(CurrentAmmo);
+
+		// Animate
+		anim.SetTrigger("shoot");
 	}
 
 	private IEnumerator FinishShooting () // Loads next bullet; Cooldown interval between bullets
@@ -273,6 +274,9 @@ public class WeaponSystem : MonoBehaviour
 		//}
 
 		StartCoroutine(FinishReloading());
+
+		// Animate
+		anim.SetTrigger("reload");
 	}
 
 	private IEnumerator FinishReloading() 

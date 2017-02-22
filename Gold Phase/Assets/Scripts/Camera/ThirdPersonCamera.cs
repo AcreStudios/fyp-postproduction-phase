@@ -30,6 +30,7 @@ public class ThirdPersonCamera : MonoBehaviour
 	public float MaxAngle = 85f;
 	public float CameraPanSpeed = 5f;
 	public float CameraMoveSpeed = 5f;
+	public float CameraAimSpeed = 50f;
 	public float CameraCollideSpeed = 10f;
 	public float CameraSmoothing = .012f;
 	public bool InvertY = true;
@@ -54,8 +55,14 @@ public class ThirdPersonCamera : MonoBehaviour
 	public Vector3 DefaultPositionOffset = new Vector3(0f, 0f, -2.5f);
 	public Vector3 AimPositionOffset = new Vector3(-2f, 0f, -2.5f);
 	public Vector3 CoverPositionOffset = new Vector3(-1.8f, 0f, -3f);
+	public float CoverLookAheadDistance = .8f;
 	public enum Shoulder { RIGHT, LEFT }
 	public Shoulder CurrentShoulder;
+
+	private bool inCover;
+	private bool aiming;
+	private bool canAim;
+	private Vector3 targetPositionOffset;
 
 	// Camera helpers
 	private Vector3 velocity;
@@ -89,7 +96,7 @@ public class ThirdPersonCamera : MonoBehaviour
 		playerInput = PlayerInputManager.GetInstance();
 
 		ParentAndResetMainCamera();
-		TargetPlayer();
+		CachePlayer();
 
 		// Cache main camera for changing FOV
 		mainCam = Camera.main;
@@ -100,16 +107,33 @@ public class ThirdPersonCamera : MonoBehaviour
 
 		// Set cursor lock
 		Cursor.lockState = CursorMode;
+
+		// Camera default position
+		SwitchShoulder(CurrentShoulder);
+		targetPositionOffset = DefaultPositionOffset;
+
+		canAim = true;
 	}
 
 	void Update() 
 	{
+		// Update state
+		aiming = playerInput.RMB;
+		targetPositionOffset = (aiming) ? AimPositionOffset : ((inCover) ? CoverPositionOffset : DefaultPositionOffset);
+
+		if(inCover && !aiming)
+		{
+			Vector3 lookForward = CoverPositionOffset;
+			lookForward.x += playerInput.horizontal * CoverLookAheadDistance;
+			targetPositionOffset = lookForward;
+		}
+
 		RotateCamera();
-		CheckWallCollision(playerInput.RMB);
+		CheckWallCollision();
 		CheckMeshDistance();
-		ChangeFOV(playerInput.RMB);
+		ChangeFOV(aiming);
 		if(playerInput.MMB)
-			SwitchShoulder();
+			SwitchShoulder(CurrentShoulder);
 	}
 
 	void LateUpdate() 
@@ -118,23 +142,38 @@ public class ThirdPersonCamera : MonoBehaviour
 		FollowTarget(targetPos);
 	}
 
-	public void SwitchShoulder() // Change shoulder side 
+	public bool GetAimState()
 	{
-		switch(CurrentShoulder)
+		return aiming;
+	}
+
+	public void SetCoverState(bool state, bool canOnlyAimAtSides)
+	{
+		inCover = state;
+		if(inCover)
+			canAim = canOnlyAimAtSides;
+		else
+			canAim = true;
+		Target.GetComponent<Animator>().SetBool("mirror", (inCover) ? ((CurrentShoulder == Shoulder.RIGHT) ? false : true) : CurrentShoulder == Shoulder.RIGHT);
+	}
+
+	public void SwitchShoulder(Shoulder curShoulder) // Change shoulder side 
+	{
+		switch(curShoulder)
 		{
 			case Shoulder.LEFT:
 				CurrentShoulder = Shoulder.RIGHT;
-				Target.GetComponent<Animator>().SetBool("mirror", true);
-				DefaultPositionOffset = new Vector3(-DefaultPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
-				AimPositionOffset = new Vector3(-AimPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
-				CoverPositionOffset = new Vector3(-CoverPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
+				Target.GetComponent<Animator>().SetBool("mirror", (inCover) ? false : true);
+				AimPositionOffset = new Vector3(Mathf.Abs(AimPositionOffset.x), AimPositionOffset.y, AimPositionOffset.z);
+				CoverPositionOffset = new Vector3(Mathf.Abs(CoverPositionOffset.x), CoverPositionOffset.y, CoverPositionOffset.z);
+				DefaultPositionOffset = new Vector3(Mathf.Abs(DefaultPositionOffset.x), DefaultPositionOffset.y, DefaultPositionOffset.z);
 				break;
 			case Shoulder.RIGHT:
 				CurrentShoulder = Shoulder.LEFT;
-				Target.GetComponent<Animator>().SetBool("mirror", false);
-				DefaultPositionOffset = new Vector3(-DefaultPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
-				AimPositionOffset = new Vector3(-AimPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
-				CoverPositionOffset = new Vector3(-CoverPositionOffset.x, DefaultPositionOffset.y, DefaultPositionOffset.z);
+				Target.GetComponent<Animator>().SetBool("mirror", (inCover) ? true : false);
+				AimPositionOffset = new Vector3(-Mathf.Abs(AimPositionOffset.x), AimPositionOffset.y, AimPositionOffset.z);
+				CoverPositionOffset = new Vector3(-Mathf.Abs(CoverPositionOffset.x), CoverPositionOffset.y, CoverPositionOffset.z);
+				DefaultPositionOffset = new Vector3(-Mathf.Abs(DefaultPositionOffset.x), DefaultPositionOffset.y, DefaultPositionOffset.z);
 				break;
 		}
 	}
@@ -161,17 +200,17 @@ public class ThirdPersonCamera : MonoBehaviour
 		camPivot.localRotation = newRotation;
 	}
 
-	private void CheckWallCollision(bool aim) // Spherecast to prevent collision with walls and also switch shoulders 
+	private void CheckWallCollision() // Spherecast to prevent collision with walls and also switch shoulders 
 	{
 		// Do spherecast
 		RaycastHit hit;
 		Vector3 start = camPivot.position;
 		Vector3 dir = camTrans.position - camPivot.position;
-		float dist = Mathf.Abs(DefaultPositionOffset.z);
+		float dist = Mathf.Abs(targetPositionOffset.z);
 		if(Physics.SphereCast(start, WallCheckDist, dir, out hit, dist, WallLayer))
 			RepositionCamera(hit, camPivot.position, dir);
 		else
-			PositionCamera((aim) ? AimPositionOffset : DefaultPositionOffset);
+			PositionCamera(targetPositionOffset);
 	}
 
 	private void RepositionCamera(RaycastHit hit, Vector3 pivotPos, Vector3 dir) // Moves camera forward when we hit a wall 
@@ -185,7 +224,8 @@ public class ThirdPersonCamera : MonoBehaviour
 
 	private void PositionCamera(Vector3 camPos) // Position camera's localPosition to a given location 
 	{
-		Vector3 newPos = Vector3.Lerp(camTrans.localPosition, camPos, CameraMoveSpeed * Time.deltaTime);
+		float speed = (aiming) ? CameraAimSpeed : CameraMoveSpeed;
+		Vector3 newPos = Vector3.Lerp(camTrans.localPosition, camPos, speed * Time.deltaTime);
 		camTrans.localPosition = newPos;
 	}
 
@@ -227,7 +267,7 @@ public class ThirdPersonCamera : MonoBehaviour
 		mainCamTrans.localRotation = Quaternion.Euler(Vector3.zero);
 	}
 
-	private void TargetPlayer() // Finds player and set it as target 
+	private void CachePlayer() // Finds player and set it as target 
 	{
 		if(Target || !AutoTargetPlayer)
 			return;

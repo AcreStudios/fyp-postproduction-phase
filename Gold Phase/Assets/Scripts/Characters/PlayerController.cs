@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
 	// Components
 	private Transform trans;
 	private Animator anim;
-	private CharacterController charController;
+	[HideInInspector]
+	public CharacterController charController;
 	private PlayerInputManager playerInput;
 	private ThirdPersonCamera tpCam;
 
@@ -26,6 +27,11 @@ public class PlayerController : MonoBehaviour
 	// Inputs
 	private float horizontal, vertical;
 	private bool leftShift;
+
+	// State
+	[HideInInspector]
+	public bool inCover = false;
+	private bool running;
 
 
 	void Awake() 
@@ -48,8 +54,20 @@ public class PlayerController : MonoBehaviour
 		MovePlayer();
 	}
 
+	public bool GetRunState()
+	{
+		return running;
+	}
+
+	public void SetCoverState(bool state)
+	{
+		inCover = state;
+	}
+
 	private void MovePlayer() // Movement logic 
 	{
+		if(inCover) return;
+
 		Vector3 input = new Vector3(playerInput.horizontal, 0f, playerInput.vertical);
 		Vector3 inputDir = input.normalized;
 
@@ -61,7 +79,8 @@ public class PlayerController : MonoBehaviour
 		}
 
 		// Get target speed
-		bool running = playerInput.leftShift && !(inputDir.z == -1f) && !(playerInput.RMB);
+		bool walkingBackwards = inputDir.z < 0f;
+		running = playerInput.leftShift && !walkingBackwards && !(playerInput.RMB);
 		float targetSpeed = ((running) ? RunSpeed : WalkSpeed) * inputDir.magnitude;
 		currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, SpeedSmoothTime);
 

@@ -9,6 +9,10 @@ TagManager:
   - Civillian
   - Floor
   - Joints
+  - Computers
+  - Obstacles
+  - CoffeeMachines
+  - NearPlayer
   layers:
   - Default
   - TransparentFX
@@ -19,7 +23,7 @@ TagManager:
   - 
   - 
   - Ragdoll
-  - 
+  - Player
   - 
   - 
   - 

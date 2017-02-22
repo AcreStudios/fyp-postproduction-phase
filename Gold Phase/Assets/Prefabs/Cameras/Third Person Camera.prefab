@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camTrans: {fileID: 0}
-  CursorMode: 0
+  CursorMode: 1
   AutoTargetPlayer: 1
   Target: {fileID: 0}
   MouseSensitivityX: 2.5
@@ -118,7 +118,8 @@ MonoBehaviour:
   MinAngle: 25
   MaxAngle: 50
   CameraPanSpeed: 5
-  CameraMoveSpeed: 5
+  CameraMoveSpeed: 3
+  CameraAimSpeed: 50
   CameraCollideSpeed: 15
   CameraSmoothing: 0.012
   InvertY: 1
@@ -132,8 +133,9 @@ MonoBehaviour:
   AimingFOV: 30
   ZoomSpeed: 10
   DefaultPositionOffset: {x: 0, y: 0, z: -2.5}
-  AimPositionOffset: {x: 0.55, y: 0, z: -2}
-  CoverPositionOffset: {x: 0.75, y: 0, z: -2}
+  AimPositionOffset: {x: 0.3, y: 0.2, z: -1}
+  CoverPositionOffset: {x: 0.75, y: 0, z: -1.5}
+  CoverLookAheadDistance: 0.5
   CurrentShoulder: 0
   newX: 0
   newY: 0
