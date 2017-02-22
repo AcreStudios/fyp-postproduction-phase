@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
 	private Vector3 currentRotation;
 	public float gravity = -9.81f;
 	private float velocityY;
+	//[HideInInspector]
+	public Vector3 footstepVelocity;
 
 	// Inputs
 	private float horizontal, vertical;
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
 	void Update() 
 	{
 		MovePlayer();
+
+		footstepVelocity = charController.velocity;
 	}
 
 	public bool GetRunState()
@@ -93,12 +97,13 @@ public class PlayerController : MonoBehaviour
 		// Move character
 		Vector3 forwardDir = trans.forward * inputDir.z + trans.right * inputDir.x;
 		Vector3 velocity =  forwardDir * currentSpeed + Vector3.up * velocityY;
+		//print("velocity is: " + velocity.magnitude);
 		charController.Move(velocity * Time.deltaTime);
 		currentSpeed = new Vector2(charController.velocity.x, charController.velocity.z).magnitude;
 
 		// Animate character
 		float runAnimPercent = currentSpeed / RunSpeed;
-		float walkAnimPercent = currentSpeed / WalkSpeed * .5f;
+		float walkAnimPercent = currentSpeed / WalkSpeed * .49f;
 		float forward = ((running) ? runAnimPercent : walkAnimPercent) * inputDir.z;
 		float strafe = ((running) ? runAnimPercent : walkAnimPercent) * inputDir.x;
 

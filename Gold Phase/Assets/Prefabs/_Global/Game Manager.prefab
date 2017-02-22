@@ -408,6 +408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4780683722429474}
   - component: {fileID: 114189014447685636}
+  - component: {fileID: 114390316349063704}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -877,6 +878,143 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114390316349063704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1729968788972512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0a271de2a7a674b9f6cb9826d02d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FloorTypes:
+  - groundName: Wood
+    mats:
+    - {fileID: 2100000, guid: 02ac6fa0cd795ea48b8a9a6421f3a652, type: 2}
+    footstepSounds:
+    - {fileID: 8300000, guid: 713d1c364aea1c1449681d2f86a20ede, type: 3}
+    - {fileID: 8300000, guid: 3370a7aa2390b824997db9fa7132a262, type: 3}
+    - {fileID: 8300000, guid: 51db53382bed9c3408a67217fcf15dfe, type: 3}
+    - {fileID: 8300000, guid: 1ef7ac8e5814dd945a5aba0b7ae4f020, type: 3}
+    - {fileID: 8300000, guid: cb875c22a5010274eb21d5fb7c777975, type: 3}
+    - {fileID: 8300000, guid: 23bfe9e699bf8a14ab63ae735ed1d199, type: 3}
+  - groundName: Concrete
+    mats:
+    - {fileID: 2100000, guid: 3a15bf2243a503b4e9e493b0196caa99, type: 2}
+    - {fileID: 2100000, guid: a20375a41f1d967419f2f407b5dbd7be, type: 2}
+    footstepSounds:
+    - {fileID: 8300000, guid: 07d7602dba3efa34e8a43385e10ace6c, type: 3}
+    - {fileID: 8300000, guid: 08c3860f322b695488d20998d354d384, type: 3}
+    - {fileID: 8300000, guid: 97f7283f7b4cd7e4fb51e6deca2a18be, type: 3}
+    - {fileID: 8300000, guid: 3c1843dd75a59ad4ea23cb233ac1b161, type: 3}
+    - {fileID: 8300000, guid: 4d5f3de0e0a7a56448890f6de062aeea, type: 3}
+    - {fileID: 8300000, guid: 3d4185bbfe22bf54eba05b9db6472bfc, type: 3}
+    - {fileID: 8300000, guid: ab7a54c290ebb1f469e2aa2fa7d1b3ec, type: 3}
+  - groundName: Road
+    mats:
+    - {fileID: 2100000, guid: afc52cb30860f7a49ba54bcf43bcde81, type: 2}
+    footstepSounds:
+    - {fileID: 8300000, guid: e3a56c6c8b4a5064999dd62e34390518, type: 3}
+    - {fileID: 8300000, guid: 64b28679d5565264eb0e4606fa4f2563, type: 3}
+    - {fileID: 8300000, guid: 909f24bd1efa9f64889860af58a3efea, type: 3}
+  - groundName: Carpet
+    mats:
+    - {fileID: 2100000, guid: a9465284d2cb88a4fae2e639ed26b84f, type: 2}
+    footstepSounds:
+    - {fileID: 8300000, guid: a3996b0db547de74cb97562e59927225, type: 3}
+    - {fileID: 8300000, guid: 9d6acf2055adada46ab2a69870944370, type: 3}
+    - {fileID: 8300000, guid: 0f9817d7ff87a6e4da45450d3d394b4d, type: 3}
+    - {fileID: 8300000, guid: 2cd98d8c244cdb34fad9ae575dc92455, type: 3}
+  BulletImpacts:
+  - ImpactType: Concrete
+    ImpactPrefab: {fileID: 1325523364033444, guid: de159b88469ecef4eab80291dfe7a910,
+      type: 2}
+    Mats:
+    - {fileID: 2100000, guid: a20375a41f1d967419f2f407b5dbd7be, type: 2}
+    - {fileID: 2100000, guid: 3a15bf2243a503b4e9e493b0196caa99, type: 2}
+    - {fileID: 2100000, guid: 8124c67e332f9664f913c73522c32967, type: 2}
+    - {fileID: 2100000, guid: 073d82eaeb677564faff7b624f8ec37c, type: 2}
+    - {fileID: 2100000, guid: 9793c5ade29e4314bb4996a4283752c7, type: 2}
+    - {fileID: 2100000, guid: 06de2c5fde742574fb1cbf3d8b8b6e6a, type: 2}
+    - {fileID: 2100000, guid: 1d00bf898bb6a274782bd7807fd80764, type: 2}
+    - {fileID: 2100000, guid: a97a00e4fc799724690fca38cc8cbe4d, type: 2}
+    - {fileID: 2100000, guid: 412ac8fd172ccf746aa3b78d318670c0, type: 2}
+    - {fileID: 2100000, guid: 4c0a52c97e523c1439cc57ccbea0b0b1, type: 2}
+    ImpactSounds:
+    - {fileID: 8300000, guid: 4158d77ead4f57747815f61059038412, type: 3}
+  - ImpactType: Others
+    ImpactPrefab: {fileID: 1325523364033444, guid: de159b88469ecef4eab80291dfe7a910,
+      type: 2}
+    Mats:
+    - {fileID: 2100000, guid: e2e3f7bcbead4e842a095e9b2225c63a, type: 2}
+    - {fileID: 2100000, guid: 6ce02590bafdf394b961f5e2ce885410, type: 2}
+    - {fileID: 2100000, guid: 02ac6fa0cd795ea48b8a9a6421f3a652, type: 2}
+    - {fileID: 2100000, guid: a9465284d2cb88a4fae2e639ed26b84f, type: 2}
+    - {fileID: 2100000, guid: d07f9a19bd2b30f4681ec84b65a5e055, type: 2}
+    - {fileID: 2100000, guid: 146ff9b4c81bfff42ac9900735bd9d43, type: 2}
+    - {fileID: 2100000, guid: 0b09b39f6001b9940a6e87bc617dc7c5, type: 2}
+    - {fileID: 2100000, guid: 1c5f56acf81e16847b14dcf4cfeb2c3f, type: 2}
+    - {fileID: 2100000, guid: 0c085197540f0e6498b9229cfd7c2313, type: 2}
+    - {fileID: 2100000, guid: 4775a4cf19bc9bc4f9ff444ff1348b8d, type: 2}
+    - {fileID: 2100000, guid: 5a69f3ad5873f54428bfc362e6abc47c, type: 2}
+    - {fileID: 2100000, guid: f71433c75eef04f4aa8a8f1c096289d3, type: 2}
+    - {fileID: 2100000, guid: fefd0bc14a77c1540a9a17efcdcbe879, type: 2}
+    - {fileID: 2100000, guid: 43e46d6a65004f3438f5b60fd9324827, type: 2}
+    - {fileID: 2100000, guid: 308efd234ee62814aa737b9b01451a00, type: 2}
+    - {fileID: 2100000, guid: d72a7f36a9800054487769dcb9f37076, type: 2}
+    - {fileID: 2100000, guid: 345f95bcf61de8545949743ca79942e9, type: 2}
+    - {fileID: 2100000, guid: 400f4ab5faa85c04fab519639322833b, type: 2}
+    - {fileID: 2100000, guid: ecabcfdcca59f6a4db97a0743570076e, type: 2}
+    ImpactSounds:
+    - {fileID: 8300000, guid: 23163f226870b3447bfe9a506e837785, type: 3}
+    - {fileID: 8300000, guid: 11e720052483aae4da8cc765592e7e39, type: 3}
+    - {fileID: 8300000, guid: e52c609ba65eea741bcb37312256f4c2, type: 3}
+  - ImpactType: Enemy
+    ImpactPrefab: {fileID: 0}
+    Mats:
+    - {fileID: 2100000, guid: 5701a96c03895d549b8f7184301a32d3, type: 2}
+    - {fileID: 2100000, guid: 26b2dba90621df449a121819289a87ee, type: 2}
+    - {fileID: 2100000, guid: b14919a9ec4a75644a0abe3061654f8d, type: 2}
+    - {fileID: 2100000, guid: f0e30e62e5e660748b6bc81cde56c5d6, type: 2}
+    - {fileID: 2100000, guid: e12b0773d589e724c8103ec23aea5777, type: 2}
+    - {fileID: 2100000, guid: b24a266914a23dd45ae7005af373bfff, type: 2}
+    - {fileID: 2100000, guid: 578620fce56e32445be56866757a922c, type: 2}
+    - {fileID: 2100000, guid: e79ba5f1d01d8a04398945d0d148beb8, type: 2}
+    - {fileID: 2100000, guid: a7c23e046e45f884984d8de4339fed62, type: 2}
+    - {fileID: 2100000, guid: f98f4fea1263f5d478ea7d4af2f55eeb, type: 2}
+    - {fileID: 2100000, guid: 42f1dae5719e42741b99d6d6f51d9a34, type: 2}
+    - {fileID: 2100000, guid: 99bd4de8a3ff65741be68cabde5f05c0, type: 2}
+    - {fileID: 2100000, guid: fddfcc4c68a6fce4a9b39b9d50876afa, type: 2}
+    - {fileID: 2100000, guid: 660e5d53bc43a71429e831d917a14051, type: 2}
+    - {fileID: 2100000, guid: fccd0e109e3a19b4695c0461e96fdaaa, type: 2}
+    - {fileID: 2100000, guid: 028e33cdb6c84d84b8da22ec0a1087c7, type: 2}
+    - {fileID: 2100000, guid: 6e6c6f72e80bb9f46acdc8d35a17ca3e, type: 2}
+    - {fileID: 2100000, guid: 20a0b7a86eca5db45a0e4b237c0c443c, type: 2}
+    - {fileID: 2100000, guid: e589e425815b2d944ad15a259753420b, type: 2}
+    - {fileID: 2100000, guid: b5530a145483502439fb82ea62ebfef4, type: 2}
+    - {fileID: 2100000, guid: c0878aef71644ae49909c5e2813b2283, type: 2}
+    - {fileID: 2100000, guid: c1ea0f33cd6ac264bb070cc7a2fd04b2, type: 2}
+    - {fileID: 2100000, guid: 478e2ed944b150e47b764595e81e6fba, type: 2}
+    - {fileID: 2100000, guid: 2216a899626349443b4d0dc1f09a7c34, type: 2}
+    - {fileID: 2100000, guid: 98b38a20201fbba4283a6322c7146048, type: 2}
+    - {fileID: 2100000, guid: 2e6819b47c90ddb4390f2990695975e1, type: 2}
+    ImpactSounds:
+    - {fileID: 8300000, guid: 9469100b72c08de47b8bee1b88fa8c72, type: 3}
+  - ImpactType: Glass
+    ImpactPrefab: {fileID: 1325523364033444, guid: a178cf74614658c4d84d2289bd5fa4a4,
+      type: 2}
+    Mats:
+    - {fileID: 2100000, guid: e994139f63b240440adfc04e59f2f997, type: 2}
+    ImpactSounds:
+    - {fileID: 8300000, guid: a530fc2ac5dc0924484d307ccb93cd22, type: 3}
+    - {fileID: 8300000, guid: 6fa793f724f4d0e49ad458e458e96e8d, type: 3}
+  sounds:
+    aimClip: {fileID: 8300000, guid: 6755921217a41014cab9bbbe05ba06f7, type: 3}
+    fireClip: {fileID: 8300000, guid: b389cc8b48d381f4cab36952ac7afe05, type: 3}
+    reloadClip: {fileID: 8300000, guid: 6dc2076c5e68e0a4db1bd70b32924fe7, type: 3}
+    emptyClip: {fileID: 8300000, guid: 1ea6921298e18eb42bcf41e7d43e8d9e, type: 3}
 --- !u!114 &114401353286337554
 MonoBehaviour:
   m_ObjectHideFlags: 1

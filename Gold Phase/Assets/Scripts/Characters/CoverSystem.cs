@@ -275,6 +275,9 @@ public class CoverSystem : MonoBehaviour
 		Vector3 targetAimPos = trans.position;
 		targetAimPos += trans.right * ((movePositive) ? AimAtSideMoveDistance : -AimAtSideMoveDistance);
 
+		SoundManager soundManager = SoundManager.GetInstance();
+		soundManager.PlaySoundOnce(targetAimPos, soundManager.FloorTypes[0].footstepSounds[Random.Range(0, soundManager.FloorTypes[0].footstepSounds.Length)], 2f, .8f, true, .9f, .95f);
+
 		float lerp = 0f;
 		while(lerp < 1f)
 		{
@@ -285,6 +288,8 @@ public class CoverSystem : MonoBehaviour
 		lerp = 1f;
 		trans.position = Vector3.Lerp(trans.position, targetAimPos, lerp);
 
+		
+
 		lerpingAim = false;
 		aimingAtSide = true;
 	}
@@ -292,6 +297,9 @@ public class CoverSystem : MonoBehaviour
 	private IEnumerator LerpBack()
 	{
 		lerpingAim = true;
+
+		SoundManager soundManager = SoundManager.GetInstance();
+		soundManager.PlaySoundOnce(originalPos, soundManager.FloorTypes[0].footstepSounds[Random.Range(0, soundManager.FloorTypes[0].footstepSounds.Length)], 2f, .4f, true, .9f, .95f);
 
 		float lerp = 0f;
 		while(lerp < 1f)
@@ -311,7 +319,7 @@ public class CoverSystem : MonoBehaviour
 	{
 		Vector3 side = (movePositive) ? trans.right : -trans.right;
 		Vector3 targetPos = trans.position - (side * AimAtSideMoveDistance);
-		print("targetPos: " + targetPos);
+		//print("targetPos: " + targetPos);
 		trans.position = Vector3.Lerp(trans.position, targetPos, 5f * Time.deltaTime);
 	}
 

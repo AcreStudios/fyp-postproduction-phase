@@ -11,6 +11,8 @@ public class WeaponSystem : MonoBehaviour
 	private ThirdPersonCamera tpCam;
 	private CombatUI combatUI;
 	private Animator crosshairAnim;
+	private PlayerController playerController;
+	private SoundManager soundManager;
 
 	[Header("Debug")]
 	public bool DebugAim = false;
@@ -20,10 +22,13 @@ public class WeaponSystem : MonoBehaviour
 
 	[Header("Weapon Setup")]
 	public Transform BulletSpawnPoint;
-	public BulletImpact[] BulletImpacts = new BulletImpact[1];
+	public GameObject MuzzleFlash;
+	public Transform MuzzleSpawnPoint;
 
 	[Header("Weapon Settings")]
-	public float Damage = 10f;
+	public float Damage = 33f;
+	public float HeadshotMultiplier = 3f;
+	public float LimbshotMultiplier = .5f;
 	public float AttackRate = .3f;
 	public float AttackRange = 100f;
 	public bool AutoReload = false;
@@ -37,6 +42,7 @@ public class WeaponSystem : MonoBehaviour
 	private bool shootCooldown;
 	private bool reloading;
 	private bool empty;
+	private bool playAimSound;
 
 	[Header("Ammo Settings")]
 	public int CurrentAmmo = 12;
@@ -45,14 +51,16 @@ public class WeaponSystem : MonoBehaviour
 	[Header("Model Settings")]
 	public bool DebugSpine = false;
 	public Transform DebugSpineTrans;
-	public float SpineOffsetX = 5f;
-	public float SpineOffsetY = 5f;
+	public float SpineOffsetX = -12f;
+	public float SpineOffsetY = -6f;
+	public float AimSpineOffsetZ = 10f;
 
 
 	void Awake() 
 	{
 		// Cache
 		anim = GetComponent<Animator>();
+		playerController = GetComponent<PlayerController>();
 	}
 	
 	void Start() 
@@ -61,6 +69,7 @@ public class WeaponSystem : MonoBehaviour
 		playerInput = PlayerInputManager.GetInstance();
 		tpCam = ThirdPersonCamera.GetInstance();
 		combatUI = CombatUI.GetInstance();
+		soundManager = SoundManager.GetInstance();
 	}
 	
 	void Update() 
@@ -80,6 +89,9 @@ public class WeaponSystem : MonoBehaviour
 		aiming = tpCam.GetAimState() || DebugAim;
 		if(aiming)
 			Aim();
+
+		if(!aiming)
+			playAimSound = false;
 
 		anim.SetBool("aim", aiming);
 		combatUI.ToggleUI((aiming) ? true : false);
@@ -110,53 +122,46 @@ public class WeaponSystem : MonoBehaviour
 		{
 			// Shoot
 			if(playerInput.LMB)
-				Fire(start, dir, hit);
+				Shoot(start, dir, hit);
+		}
+
+		// Sounds
+		if(!playAimSound)
+		{
+			playAimSound = true;
+
+			soundManager.PlaySoundOnce(BulletSpawnPoint.position, soundManager.sounds.aimClip, 2f, 1f);
 		}
 
 		// Rotate model
 		RotateSpine();
 	}
 
-	private void Fire(Vector3 start, Vector3 dir, RaycastHit hit) // Fire weapon 
-	{
-		Shoot(start, dir, hit);
-
-		// Auto reload?
-		if(AutoReload && CurrentAmmo == 0)
-		{
-			Reload();
-			return;
-		}
-
-		if(CurrentAmmo > 0) return;
-
-		// Play empty gun sound
-		//if(soundManager)
-		//{
-		//	if(!_empty && activeWeapon.soundSettings.emptySound && activeWeapon.soundSettings.audioSrc)
-		//	{
-		//		soundManager.PlaySound(activeWeapon.soundSettings.audioSrc,
-		//			activeWeapon.soundSettings.emptySound,
-		//			true,
-		//			activeWeapon.soundSettings.pitchMin,
-		//			activeWeapon.soundSettings.pitchMax);
-
-		//		StartCoroutine(FinishEmptyFire());
-		//	}
-		//}
-	}
-
 	private IEnumerator FinishEmptyFireSound() 
 	{
-		empty = true;
-		yield return new WaitForSeconds(.4f);
+		soundManager.PlaySoundOnce(BulletSpawnPoint.position, soundManager.sounds.emptyClip, 2f, 1f);
+		yield return new WaitForSeconds(AttackRate);
 		empty = false;
 	}
 
 	private void Shoot(Vector3 start, Vector3 dir, RaycastHit hit) // Shoot bullet 
 	{
-		if(CurrentAmmo <= 0 || shootCooldown || !BulletSpawnPoint || reloading)
+		if(shootCooldown || !BulletSpawnPoint)
 			return;
+
+		// Auto reload?
+		if(AutoReload && CurrentAmmo == 0)
+		{
+			Reload();
+			if(!empty)
+			{
+				empty = true;
+				StartCoroutine(FinishEmptyFireSound());
+			}
+			return;
+		}
+
+		if(reloading) return;
 
 		// Bullet spread
 		dir += (Vector3)UnityEngine.Random.insideUnitCircle * BulletSpreadAmount;
@@ -169,7 +174,15 @@ public class WeaponSystem : MonoBehaviour
 			EnemyHealth hp = hit.transform.GetComponent<EnemyHealth>();
 			if(hp && hp.isActiveAndEnabled)
 			{
-				hp.ReceiveDamage(Damage);
+				if(hit.collider is SphereCollider)
+					hp.ReceiveDamage(Damage * HeadshotMultiplier);
+				else if(hit.collider is CapsuleCollider)
+					hp.ReceiveDamage(Damage * LimbshotMultiplier);
+				else if(hit.collider is BoxCollider)
+					hp.ReceiveDamage(Damage);
+				else
+					print("Cant shoot enemy body part! Remove " + hit.collider);
+
 				combatUI.TriggerHitEnemy();
 			}
 			else
@@ -183,28 +196,17 @@ public class WeaponSystem : MonoBehaviour
 		}
 
 		// Muzzle flash
-		//if(MuzzleFlashPrefab)
-		//{
-		//	Vector3 bSpawnPos = weaponSettings.bulletSpawnPoint.position;
-		//	GameObject mFlash = (GameObject)Instantiate(weaponSettings.muzzleFlashPrefab, bSpawnPos, Quaternion.identity);
-		//	Transform mFlashTrans = mFlash.transform;
-		//	mFlashTrans.SetParent(weaponSettings.bulletSpawnPoint);
-		//	Destroy(mFlash, .5f);
-		//}
+		if(MuzzleFlash)
+		{
+			Vector3 bSpawnPos = MuzzleSpawnPoint.position;
+			GameObject mFlash = Instantiate(MuzzleFlash, bSpawnPos, Quaternion.identity);
+			Transform mFlashTrans = mFlash.transform;
+			mFlashTrans.SetParent(MuzzleSpawnPoint);
+			Destroy(mFlash, .5f);
+		}
 
 		// Sounds
-		//if(SoundManager.instance && soundSettings.audioSrc)
-		//{
-		//	if(soundSettings.gunshotSounds.Length > 0)
-		//	{
-		//		SoundManager.instance.PlaySoundOnce(weaponSettings.bulletSpawnPoint.position,
-		//		soundSettings.gunshotSounds[Random.Range(0, soundSettings.gunshotSounds.Length)],
-		//		2f,
-		//		true,
-		//		soundSettings.pitchMin,
-		//		soundSettings.pitchMax);
-		//	}
-		//}
+		soundManager.PlaySoundOnce(BulletSpawnPoint.position, soundManager.sounds.fireClip, 2f, .5f, true, .8f, 1.1f);
 
 		// Shoot cooldown
 		StartCoroutine(FinishShooting());
@@ -228,30 +230,36 @@ public class WeaponSystem : MonoBehaviour
 
 	private void BulletImpactLogic(RaycastHit hit) // Logic when a bullet hits something 
 	{
-		if(BulletImpacts.Length == 0) return;
+		if(soundManager.BulletImpacts.Length == 0) return;
 		
-		foreach(BulletImpact bType in BulletImpacts)
+		foreach(BulletImpactType bType in soundManager.BulletImpacts)
 		{
 			foreach(Material mat in bType.Mats)
 			{
 				Renderer rend = hit.collider.GetComponent<Renderer>();
 
-				if(!rend || rend.material != mat) return;
-
-				// Decal prefabs
-				if(bType.ImpactPrefab)
+				if(rend)
 				{
-					Vector3 hitPoint = hit.point;
-					Quaternion lookRot = Quaternion.LookRotation(hit.normal);
-					GameObject decal = Instantiate(bType.ImpactPrefab, hitPoint, lookRot);
-					Transform decalTrans = decal.transform;
-					Transform hitTrans = hit.transform;
-					decalTrans.SetParent(hitTrans);
-					Destroy(decal, 20f);
+					if(rend.material.mainTexture == mat.mainTexture)
+					{
+						// Decal prefabs
+						if(bType.ImpactPrefab)
+						{
+							Vector3 hitPoint = hit.point;
+							Quaternion lookRot = Quaternion.LookRotation(hit.normal);
+							GameObject decal = Instantiate(bType.ImpactPrefab, hitPoint, lookRot);
+							Transform decalTrans = decal.transform;
+							Transform hitTrans = hit.transform;
+							decalTrans.SetParent(hitTrans);
+							Destroy(decal, 20f);
+						}
+
+						// Sound
+						soundManager.PlaySoundOnce(hit.point, bType.ImpactSounds[UnityEngine.Random.Range(0, bType.ImpactSounds.Length)]);
+					}
 				}
 
-				// Sound
-				//SoundManager.GetInstance().PlaySoundOnce(hit.point, bType.impactSounds[Random.Range(0, bType.impactSounds.Length)]);
+				
 			}
 		}
 	}
@@ -273,10 +281,15 @@ public class WeaponSystem : MonoBehaviour
 		//	}
 		//}
 
-		StartCoroutine(FinishReloading());
-
 		// Animate
 		anim.SetTrigger("reload");
+
+		StartCoroutine(FinishReloading());
+	}
+
+	public void PlayReloadSound()
+	{
+		soundManager.PlaySoundOnce(BulletSpawnPoint.position, soundManager.sounds.reloadClip, 2f, 1f);
 	}
 
 	private IEnumerator FinishReloading() 
@@ -297,17 +310,8 @@ public class WeaponSystem : MonoBehaviour
 
 	private void RotateSpine() // Makes the character spine face center 
 	{
-		Vector3 newRot = new Vector3(tpCam.camTrans.parent.localPosition.x + SpineOffsetX, tpCam.camTrans.parent.localPosition.y + SpineOffsetY, -tpCam.newY);
+		Vector3 newRot = new Vector3(tpCam.camTrans.parent.localPosition.x + SpineOffsetX, tpCam.camTrans.parent.localPosition.y + SpineOffsetY, -tpCam.newY + ((playerController.inCover) ? AimSpineOffsetZ : 0f));
 
 		DebugSpineTrans.Rotate(newRot);
 	}
-}
-
-[Serializable]
-public class BulletImpact
-{
-	public string ImpactType;
-	public GameObject ImpactPrefab;
-	public Material[] Mats;
-	public AudioClip[] ImpactSounds;
 }

@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 114467060006419162}
   - component: {fileID: 114778172427153714}
   - component: {fileID: 114020136767597712}
+  - component: {fileID: 114217462060017518}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -3174,7 +3175,7 @@ MonoBehaviour:
   CoverTurnspeed: 5
   CoverAngleTolerance: 45
   AimAtSideMoveDistance: 0.6
-  AimAtSideMovespeed: 3
+  AimAtSideMovespeed: 25
   ResetCoverCooldown: 0.5
 --- !u!114 &114070081650709114
 MonoBehaviour:
@@ -3193,6 +3194,7 @@ MonoBehaviour:
   SpeedSmoothTime: 0.1
   TurnSmoothTime: 0.15
   gravity: -9.81
+  footstepVelocity: {x: 0, y: 0, z: 0}
   inCover: 0
 --- !u!114 &114146979626612534
 MonoBehaviour:
@@ -3205,6 +3207,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74b4c9691850c943a8667e658175d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114217462060017518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225281429428162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c72437813b58e44aaccf86790af853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugFootsteps: 1
+  RaycastDownDistance: 1.3
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  MasterVolume: 1
+  RandomizePitch: 1
+  MinPitch: 0.9
+  MaxPitch: 1.1
+  stepsDelay: 0.27
 --- !u!114 &114467060006419162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3221,11 +3244,6 @@ MonoBehaviour:
   DebugAimRay: 0
   DebugShootRay: 0
   BulletSpawnPoint: {fileID: 4916189288823736}
-  BulletImpacts:
-  - ImpactType: 
-    ImpactPrefab: {fileID: 0}
-    Mats: []
-    ImpactSounds: []
   Damage: 10
   AttackRate: 0.3
   AttackRange: 100
@@ -3240,8 +3258,9 @@ MonoBehaviour:
   MaxAmmo: 12
   DebugSpine: 1
   DebugSpineTrans: {fileID: 4295769569364712}
-  SpineOffsetX: -5
-  SpineOffsetY: 1
+  SpineOffsetX: -12
+  SpineOffsetY: -6
+  AimSpineOffsetZ: 15
 --- !u!114 &114545605510547980
 MonoBehaviour:
   m_ObjectHideFlags: 1

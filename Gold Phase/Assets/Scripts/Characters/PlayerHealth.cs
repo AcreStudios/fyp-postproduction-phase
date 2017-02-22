@@ -31,6 +31,11 @@ public class PlayerHealth : EnemyHealth
 	{
 		if(GrayScreenEffect)
 			GrayScreenEffect.enabled = false;
+		else
+			GrayScreenEffect = Camera.main.GetComponent<Grayscale>();
+
+		if(!RedTint)
+			RedTint = CombatUI.GetInstance().transform.Find("Health Red Tint").GetComponent<Image>();
 	}
 
 	protected override void Update()

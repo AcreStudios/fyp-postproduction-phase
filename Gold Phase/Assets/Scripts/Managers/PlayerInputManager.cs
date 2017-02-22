@@ -65,7 +65,7 @@ public class PlayerInputManager : MonoBehaviour
 		MMB = Input.GetMouseButtonDown(2);
 		reloadKey = Input.GetKeyDown(KeyCode.R);
 
-		coverKey = Input.GetKey(KeyCode.Space);
+		coverKey = Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.LeftControl);
 	}
 
 	[Serializable]
