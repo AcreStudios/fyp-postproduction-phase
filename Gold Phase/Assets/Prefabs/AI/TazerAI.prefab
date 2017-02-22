@@ -116,12 +116,11 @@ MonoBehaviour:
   weaponOffset: {x: 0, y: 1.276, z: 0}
   attackInterval: 1
   ableToDragPlayerOutOfCover: 1
-  gunSprayValue: 1
-  gunEffect: {fileID: 114000011921450816}
+  gunSprayValue: 0
+  bullets: []
   areaTestRadius: 1
   damageTest: 0
   displayDebugMessage: 0
-  retaliationTimer: 0
 --- !u!136 &13664008
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1389,6 +1388,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4581802296859092}
+  - component: {fileID: 114790481015811736}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -4007,7 +4007,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toGetColor: {fileID: 0}
+  startPoint: {fileID: 0}
+  endPoint: {x: 0, y: 0, z: 0}
   rateOfDecay: 0.1
+  speed: 0
+--- !u!114 &114790481015811736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660503941468152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74b4c9691850c943a8667e658175d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135660267435025484
 SphereCollider:
   m_ObjectHideFlags: 1
