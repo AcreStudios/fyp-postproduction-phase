@@ -907,6 +907,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -1963,6 +1964,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -7833,6 +7835,12 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.11591001, y: -0.3329078, z: -0.09882447}
     m_Extent: {x: 0.014948979, y: 0.056483686, z: 0.012804814}
   m_DirtyAABB: 0
+--- !u!114 &168094273 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11445470, guid: 7be23505aa716234a874f767a23136d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 710227426}
+  m_Script: {fileID: 11500000, guid: c155d3b254247d64fbeb32ccb4950bae, type: 3}
 --- !u!1 &168334207
 GameObject:
   m_ObjectHideFlags: 0
@@ -10452,6 +10460,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -12079,6 +12088,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -18575,6 +18585,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -23140,6 +23151,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -26668,6 +26680,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -31594,6 +31607,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
       propertyPath: m_LocalPosition.x
       value: -1.4095578
@@ -31626,14 +31643,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 157470, guid: 7be23505aa716234a874f767a23136d9, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445470, guid: 7be23505aa716234a874f767a23136d9, type: 2}
-      propertyPath: doesNotMoveFromCover
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.data[0]
+      value: 
+      objectReference: {fileID: 168094273}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7be23505aa716234a874f767a23136d9, type: 2}
   m_IsPrefabParent: 0
@@ -41217,6 +41230,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -51180,6 +51194,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -53600,6 +53615,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
       propertyPath: m_LocalPosition.x
       value: -1.4095578
@@ -53636,6 +53655,10 @@ Prefab:
       propertyPath: m_Name
       value: GunfireAI (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.data[0]
+      value: 
+      objectReference: {fileID: 1318912291}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7be23505aa716234a874f767a23136d9, type: 2}
   m_IsPrefabParent: 0
@@ -62030,6 +62053,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -62681,6 +62705,12 @@ Transform:
   m_Father: {fileID: 823957543}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318912291 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11445470, guid: 7be23505aa716234a874f767a23136d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1145791991}
+  m_Script: {fileID: 11500000, guid: c155d3b254247d64fbeb32ccb4950bae, type: 3}
 --- !u!1 &1321439425
 GameObject:
   m_ObjectHideFlags: 0
@@ -65669,6 +65699,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -68148,6 +68179,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -74671,6 +74703,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -81167,6 +81200,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -92161,6 +92195,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -94103,6 +94138,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -95193,6 +95229,66 @@ Transform:
   m_Father: {fileID: 694170525}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2080257979
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.4095578
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.892643
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.233746
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 405478, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: m_Name
+      value: GunfireAI(Smarter) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11423156, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+      propertyPath: ScriptsToDisableOnDeath.Array.data[0]
+      value: 
+      objectReference: {fileID: 2080257980}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7be23505aa716234a874f767a23136d9, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &2080257980 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11445470, guid: 7be23505aa716234a874f767a23136d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2080257979}
+  m_Script: {fileID: 11500000, guid: c155d3b254247d64fbeb32ccb4950bae, type: 3}
 --- !u!1 &2080574953
 GameObject:
   m_ObjectHideFlags: 0

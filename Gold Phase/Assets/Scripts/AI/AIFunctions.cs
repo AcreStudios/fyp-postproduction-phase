@@ -30,7 +30,7 @@ public class AIFunctions : MonoBehaviour {
     public float range;
 
     bool ableToGetPoint;
-    EnemyHealth hpScript;
+    public EnemyHealth hpScript;
 
 
     void Awake() {
@@ -38,6 +38,7 @@ public class AIFunctions : MonoBehaviour {
 
         if (knowsTarget)
             FindTarget();
+
         hpScript = GetComponent<EnemyHealth>();
     }
 
@@ -48,8 +49,10 @@ public class AIFunctions : MonoBehaviour {
         AIOverseer.instance.AIHostileRadius(target.position, range);
 
         destination = GetDestinationPoint(range, ableToHide);
-        if (hpScript.CurrentHealth <= 0)
+        if (hpScript.CurrentHealth <= 0 && enabled) {
             enabled = false;
+            Destroy(gameObject, 5);
+        }
     }
 
     public virtual Vector3 GetDestinationPoint(float targetRange, bool hide) {

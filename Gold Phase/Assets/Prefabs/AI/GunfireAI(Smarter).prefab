@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &165418
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   maxHeightForCover: {fileID: 4690649550831238}
   durationInCover: 0
   ableToHide: 1
-  doesNotMoveFromCover: 1
+  doesNotMoveFromCover: 0
   destination: {x: 0, y: 0, z: 0}
   destinationMarker: {fileID: 136000012030540420}
   target: {fileID: 0}
