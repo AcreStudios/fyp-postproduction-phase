@@ -70,8 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHealth: 100
-  ScriptsToDisableOnDeath:
-  - {fileID: 11445470}
+  ScriptsToDisableOnDeath: []
   DebugDamage: 0
   DebugDeath: 0
 --- !u!114 &11445470
@@ -96,6 +95,7 @@ MonoBehaviour:
   knowsTarget: 0
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0

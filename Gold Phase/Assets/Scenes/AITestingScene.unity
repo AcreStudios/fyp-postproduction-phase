@@ -73805,39 +73805,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 157470, guid: 9a40983d166aad34285d4f89b9f4a61c, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a40983d166aad34285d4f89b9f4a61c, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1590232064 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 157470, guid: 9a40983d166aad34285d4f89b9f4a61c, type: 2}
-  m_PrefabInternal: {fileID: 1590232063}
---- !u!114 &1590232065 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11445470, guid: 9a40983d166aad34285d4f89b9f4a61c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1590232063}
-  m_Script: {fileID: 11500000, guid: c155d3b254247d64fbeb32ccb4950bae, type: 3}
---- !u!114 &1590232066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1590232064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0b79cecda14934abef8063a1c54090, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentHealth: 100
-  ScriptsToDisableOnDeath:
-  - {fileID: 1590232065}
-  DebugDamage: 0
-  DebugDeath: 0
 --- !u!1 &1591155838
 GameObject:
   m_ObjectHideFlags: 0

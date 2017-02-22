@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 11445470}
   - component: {fileID: 13664008}
   - component: {fileID: 9586144}
+  - component: {fileID: 114619088912583998}
   m_Layer: 0
   m_Name: TazerAI
   m_TagString: Enemy
@@ -106,6 +107,7 @@ MonoBehaviour:
   knowsTarget: 1
   coverType: 0
   range: 20
+  hpScript: {fileID: 0}
   currentState: 0
   reactionTime: 0
   toEscort: 0
@@ -4011,6 +4013,21 @@ MonoBehaviour:
   endPoint: {x: 0, y: 0, z: 0}
   rateOfDecay: 0.1
   speed: 0
+--- !u!114 &114619088912583998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0b79cecda14934abef8063a1c54090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 100
+  ScriptsToDisableOnDeath: []
+  DebugDamage: 0
+  DebugDeath: 0
 --- !u!114 &114790481015811736
 MonoBehaviour:
   m_ObjectHideFlags: 1
