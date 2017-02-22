@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(UnityEngine.AI.NavMeshAgent))]
 
@@ -31,11 +32,12 @@ public class AI : AIFunctions {
     public Vector3 weaponOffset = new Vector3(0, 1.276f, 0);
     public float attackInterval;
     public bool ableToDragPlayerOutOfCover;
+
     float attackTimer;
 
     [Header("Raycast Shooting Attack Settings")]
     public float gunSprayValue;
-    public TrailEffectFade gunEffect;
+    public List<TrailEffectFade> bullets;
 
     [Header("Area Attack Settings")]
     public float areaTestRadius;
@@ -48,7 +50,11 @@ public class AI : AIFunctions {
     float stateChangeTimer;
     float inCoverTimer;
     bool recentlyGotPoint;
-    public float retaliationTimer;
+    float retaliationTimer;
+
+
+    int activeBullets;
+
 
     void Start() {
         gameObject.tag = "Enemy";
@@ -89,6 +95,7 @@ public class AI : AIFunctions {
         if (damageTest) {
             damageTest = false;
             DamageRecieved();
+            hpScript.ReceiveDamage();
         }
 
         switch (currentState) {
@@ -223,7 +230,7 @@ public class AI : AIFunctions {
         return base.GetDestinationPoint(targetRange, tempVar);
     }
 
-    public void Attack() {
+    void Attack() {
         animator.SetInteger("TreeState", 2);
         if (Time.time > attackTimer) {
             Transform targetHit = null;
@@ -234,21 +241,22 @@ public class AI : AIFunctions {
                     foreach (Transform gun in guns) {
                         gun.LookAt(target.position + weaponOffset);
 
-                        gunEffect.transform.position = gun.position;
-                        gunEffect.gameObject.SetActive(true);
-                        gunEffect.ObjectActive();
-                        StartCoroutine(ChangeObjectLocation(gunEffect.gameObject, gun.position + gun.TransformDirection(0, 0, range) + offset));
-
                         RaycastHit hit;
-                        Debug.DrawRay(gun.position, gun.TransformDirection(0, 0, range) + offset, Color.red);
+                        Vector3 endLoc = gun.position + gun.TransformDirection(0, 0, range) + offset;
+
+                        //Debug.DrawRay(gun.position, gun.TransformDirection(0, 0, range) + offset, Color.red);
                         AIOverseer.instance.PlayRandomSound(AIOverseer.instance.gunShotList, transform.position);
 
                         if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit))
                             if (hit.transform.CompareTag("NearPlayer"))
                                 AIOverseer.instance.PlayRandomSound(AIOverseer.instance.flyByList, hit.point);
 
-                        if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit))
+                        if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit)) {
                             targetHit = hit.transform.root;
+                            endLoc = hit.point;
+                        }
+                        Debug.Log(endLoc);
+                        BulletHandler(endLoc);
                     }
                     break;
                 case WeaponType.Area:
@@ -264,16 +272,16 @@ public class AI : AIFunctions {
 
             if (targetHit != null)
                 if (targetHit != transform) {
-                    //Health hp = targetHit.GetComponent<Health>();
+                    PlayerHealth hp = targetHit.GetComponent<PlayerHealth>();
                     AIFunctions ai;
-                    //if (hp && hp.isActiveAndEnabled)
-                    //hp.ReceiveDamage(damage);
+                    if (hp && hp.isActiveAndEnabled)
+                        hp.ReceiveDamage(damage);
 
                     if (targetHit.tag == "Player")
                         if (ableToDragPlayerOutOfCover) {
                             //CoverSystem inst = targetHit.GetComponent<CoverSystem>();
-                            // if (inst)
-                            //inst.EnableController();
+                            //if (inst)
+                            //  inst.EnableController();
                         }
 
                     if ((ai = targetHit.GetComponent<AIFunctions>()) != null)
@@ -282,5 +290,9 @@ public class AI : AIFunctions {
                     attackTimer = Time.time + attackInterval;
                 }
         }
+    }
+
+    void BulletHandler(Vector3 endLocation) {
+        bullets[0].ObjectActive(endLocation);
     }
 }

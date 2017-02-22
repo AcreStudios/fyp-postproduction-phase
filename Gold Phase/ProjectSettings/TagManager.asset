@@ -9,9 +9,13 @@ TagManager:
   - Civillian
   - Floor
   - Joints
+<<<<<<< HEAD
   - Computers
   - Obstacles
   - CoffeeMachines
+=======
+  - Obstacles
+>>>>>>> 3ce7f3c4b4648766c42020b473884b19acc54937
   - NearPlayer
   layers:
   - Default

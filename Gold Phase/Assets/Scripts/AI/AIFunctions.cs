@@ -30,6 +30,7 @@ public class AIFunctions : MonoBehaviour {
     public float range;
 
     bool ableToGetPoint;
+    public EnemyHealth hpScript;
 
 
     void Awake() {
@@ -37,7 +38,8 @@ public class AIFunctions : MonoBehaviour {
 
         if (knowsTarget)
             FindTarget();
-        //hpScript = GetComponent<Health>();
+
+        hpScript = GetComponent<EnemyHealth>();
     }
 
     public virtual void DamageRecieved() {
@@ -47,13 +49,10 @@ public class AIFunctions : MonoBehaviour {
         AIOverseer.instance.AIHostileRadius(target.position, range);
 
         destination = GetDestinationPoint(range, ableToHide);
-        // if (hpScript.curHealth <= 0)
-        // enabled = false;
-    }
-
-    public IEnumerator ChangeObjectLocation(GameObject obj, Vector3 location) {
-        yield return new WaitForSeconds(0.1f);
-        obj.transform.position = location;
+        if (hpScript.CurrentHealth <= 0 && enabled) {
+            enabled = false;
+            Destroy(gameObject, 5);
+        }
     }
 
     public virtual Vector3 GetDestinationPoint(float targetRange, bool hide) {
@@ -129,7 +128,6 @@ public class AIFunctions : MonoBehaviour {
 
     public Vector3 ArcBasedPosition(Vector3 givenVector, Vector3 targetPos, float givenLength) {
         givenVector.y = 0;
-        Debug.Log("Working");
 
         Vector3 gradient = Mathf.Abs(givenVector.x) >= Mathf.Abs(givenVector.z) ? givenVector / Mathf.Abs(givenVector.x) : givenVector / Mathf.Abs(givenVector.z);
 
