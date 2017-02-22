@@ -273,7 +273,7 @@ public class CoverSystem : MonoBehaviour
 		originalPos = trans.position;
 
 		Vector3 targetAimPos = trans.position;
-		targetAimPos.z += (movePositive) ? AimAtSideMoveDistance : -AimAtSideMoveDistance;
+		targetAimPos += trans.right * ((movePositive) ? AimAtSideMoveDistance : -AimAtSideMoveDistance);
 
 		float lerp = 0f;
 		while(lerp < 1f)
@@ -410,6 +410,18 @@ public class CoverSystem : MonoBehaviour
 
 		if(Physics.Raycast(origin, dir, out hit, 1f, WallLayer))
 			coverTypeInt = (hit.collider is BoxCollider) ? 1 : 2; // 1 is full, 2 is crouch
+
+		if(coverTypeInt == 2)
+		{
+			playerController.charController.center = new Vector3(0f, .75f, 0f);
+			playerController.charController.height = 1.3f;
+		}
+		else
+		{
+			playerController.charController.center = new Vector3(0f, 1f, 0f);
+			playerController.charController.height = 1.7f;
+		}
+
 
 		return coverTypeInt;
 	}

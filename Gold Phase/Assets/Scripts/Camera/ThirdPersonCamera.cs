@@ -118,7 +118,7 @@ public class ThirdPersonCamera : MonoBehaviour
 	void Update() 
 	{
 		// Update state
-		aiming = playerInput.RMB;
+		aiming = playerInput.RMB && canAim;
 		targetPositionOffset = (aiming) ? AimPositionOffset : ((inCover) ? CoverPositionOffset : DefaultPositionOffset);
 
 		if(inCover && !aiming)

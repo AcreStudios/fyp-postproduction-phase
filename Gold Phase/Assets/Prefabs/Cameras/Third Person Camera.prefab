@@ -129,8 +129,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   meshes: []
-  DefaultFOV: 60
-  AimingFOV: 30
+  DefaultFOV: 62
+  AimingFOV: 31
   ZoomSpeed: 10
   DefaultPositionOffset: {x: 0, y: 0, z: -2.5}
   AimPositionOffset: {x: 0.3, y: 0.2, z: -1}
