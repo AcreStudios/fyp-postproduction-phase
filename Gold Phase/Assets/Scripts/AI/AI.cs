@@ -255,7 +255,7 @@ public class AI : AIFunctions {
                             targetHit = hit.transform.root;
                             endLoc = hit.point;
                         }
-                        Debug.Log(endLoc);
+                        //Debug.Log(endLoc);
                         BulletHandler(endLoc);
                     }
                     break;
