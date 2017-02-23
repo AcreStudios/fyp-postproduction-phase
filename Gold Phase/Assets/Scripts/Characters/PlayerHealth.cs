@@ -26,6 +26,7 @@ public class PlayerHealth : EnemyHealth
 	public float FadeScreenDelay = .5f;
 	public float FadeSpeed = .25f;
 	public float ReloadSceneDelay = 1f;
+    public string SceneToReload;
 
 	void Start()
 	{
@@ -91,7 +92,7 @@ public class PlayerHealth : EnemyHealth
 
 		yield return new WaitForSeconds(ReloadSceneDelay);
 
-		Debug.Log("Reloaded scene.");
+        SceneManager.LoadScene(SceneToReload);
 	}
 
 	private void LerpToTargetColor() // Fade out red tint to current health percentage 

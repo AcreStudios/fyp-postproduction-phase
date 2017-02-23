@@ -117,7 +117,7 @@ MonoBehaviour:
   MouseSensitivityY: 2.5
   MinAngle: 25
   MaxAngle: 50
-  CameraPanSpeed: 5
+  CameraPanSpeed: 25
   CameraMoveSpeed: 3
   CameraAimSpeed: 50
   CameraCollideSpeed: 15

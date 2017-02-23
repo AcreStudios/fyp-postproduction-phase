@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 13664008}
   - component: {fileID: 11423156}
   - component: {fileID: 9586144}
-  - component: {fileID: 14364202}
+  - component: {fileID: 114361032872259286}
   m_Layer: 0
   m_Name: GunfireAI
   m_TagString: Enemy
@@ -125,23 +125,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!143 &14364202
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157470}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &19567626
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -4047,6 +4030,27 @@ MonoBehaviour:
   endPoint: {x: 0, y: 0, z: 0}
   rateOfDecay: 0.1
   speed: 5
+--- !u!114 &114361032872259286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c72437813b58e44aaccf86790af853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugFootsteps: 0
+  RaycastDownDistance: 1.3
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  MasterVolume: 1
+  RandomizePitch: 1
+  MinPitch: 0.9
+  MaxPitch: 1.1
+  stepsDelay: 0.02
 --- !u!114 &114570599344517138
 MonoBehaviour:
   m_ObjectHideFlags: 1

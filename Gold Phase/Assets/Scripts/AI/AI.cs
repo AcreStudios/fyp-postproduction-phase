@@ -93,7 +93,7 @@ public class AI : AIFunctions {
     void Update() {
 
         if (damageTest) {
-            damageTest = false;           
+            damageTest = false;
             hpScript.ReceiveDamage();
             DamageRecieved();
         }
@@ -279,13 +279,13 @@ public class AI : AIFunctions {
 
                     if (targetHit.tag == "Player")
                         if (ableToDragPlayerOutOfCover) {
-                            //CoverSystem inst = targetHit.GetComponent<CoverSystem>();
-                            //if (inst)
-                            //  inst.EnableController();
+                            CoverSystem inst = targetHit.GetComponent<CoverSystem>();
+                            if (inst)
+                                inst.EnableController();
                         }
 
-                    if ((ai = targetHit.GetComponent<AIFunctions>()) != null)
-                        ai.destination = GetDestinationPoint((ai as AI).range, (ai as AI).ableToHide);
+//                    if ((ai = targetHit.GetComponent<AIFunctions>()) != null)
+  //                      ai.destination = GetDestinationPoint((ai as AI).range, (ai as AI).ableToHide);
 
                     attackTimer = Time.time + attackInterval;
                 }

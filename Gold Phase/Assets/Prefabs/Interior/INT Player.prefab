@@ -3273,6 +3273,7 @@ MonoBehaviour:
   FadeScreenDelay: 0.5
   FadeSpeed: 0.25
   ReloadSceneDelay: 1
+  SceneToReload: AcreHQ_EventTree
 --- !u!114 &114615328203600078
 MonoBehaviour:
   m_ObjectHideFlags: 1

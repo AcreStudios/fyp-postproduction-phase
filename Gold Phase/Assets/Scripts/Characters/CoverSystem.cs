@@ -434,7 +434,7 @@ public class CoverSystem : MonoBehaviour
 		return coverTypeInt;
 	}
 
-	private void EnableController() // Reset
+	public void EnableController() // Reset
 	{
 		initLerp = false;
 		initCover = false;
