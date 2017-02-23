@@ -200,11 +200,12 @@ public class CoverSystem : MonoBehaviour
 
 	private void HandleCoverMovement()
 	{
-		relativeInput.x = playerInput.horizontal;
-		relativeInput.z = playerInput.vertical;
+        //relativeInput.x = (aimingAtSide) ? 0f:playerInput.horizontal;
+        relativeInput.x = playerInput.horizontal;
+        relativeInput.z = playerInput.vertical;
 
 		// If press back or button
-		if(canLoseCover && (relativeInput.z < 0f || playerInput.coverKey))
+		if(!aimingAtSide && (canLoseCover && (relativeInput.z < 0f || playerInput.coverKey)))
 		{
 			EnableController();
 			return;

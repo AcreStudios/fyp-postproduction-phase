@@ -3360,6 +3360,8 @@ MonoBehaviour:
   MuzzleFlash: {fileID: 1404357331588076, guid: 017ad42e59c0d67438749d4f4c56242f,
     type: 2}
   MuzzleSpawnPoint: {fileID: 4183403612924814}
+  gunModel: {fileID: 1392390462894986}
+  ShowGun: 1
   Damage: 33
   HeadshotMultiplier: 3
   LimbshotMultiplier: 0.5
@@ -3368,10 +3370,10 @@ MonoBehaviour:
   AutoReload: 1
   ReloadDuration: 2.25
   UseBulletSpread: 1
-  BulletSpreadAmount: 0.02
+  BulletSpreadAmount: 0.005
   BulletLayer:
     serializedVersion: 2
-    m_Bits: 257
+    m_Bits: 1025
   CurrentAmmo: 12
   MaxAmmo: 12
   DebugSpine: 1

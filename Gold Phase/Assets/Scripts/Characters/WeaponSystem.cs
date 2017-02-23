@@ -25,6 +25,9 @@ public class WeaponSystem : MonoBehaviour
 	public GameObject MuzzleFlash;
 	public Transform MuzzleSpawnPoint;
 
+    public GameObject gunModel;
+    public bool ShowGun = false;
+
 	[Header("Weapon Settings")]
 	public float Damage = 33f;
 	public float HeadshotMultiplier = 3f;
@@ -70,6 +73,8 @@ public class WeaponSystem : MonoBehaviour
 		tpCam = ThirdPersonCamera.GetInstance();
 		combatUI = CombatUI.GetInstance();
 		soundManager = SoundManager.GetInstance();
+
+        gunModel.SetActive(ShowGun);
 	}
 	
 	void Update() 
@@ -85,7 +90,9 @@ public class WeaponSystem : MonoBehaviour
 
 	private void UpdateWeaponLogic() 
 	{
-		// Aim
+        if (!ShowGun) return;
+        
+        // Aim
 		aiming = tpCam.GetAimState() || DebugAim;
 		if(aiming)
 			Aim();
@@ -100,6 +107,11 @@ public class WeaponSystem : MonoBehaviour
 		if(playerInput.reloadKey)
 			Reload();
 	}
+
+    public void PickUpWeapon() {
+        ShowGun = true;
+        gunModel.SetActive(true);
+    }
 
 	private void Aim() 
 	{
@@ -171,24 +183,26 @@ public class WeaponSystem : MonoBehaviour
 
 		if(Physics.Raycast(start, dir, out hit, AttackRange, BulletLayer))
 		{
-			EnemyHealth hp = hit.transform.GetComponent<EnemyHealth>();
+			EnemyHealth hp = hit.transform.root.GetComponent<EnemyHealth>();
 			if(hp && hp.isActiveAndEnabled)
 			{
-				if(hit.collider is SphereCollider)
+                print("Hit: " + hit.collider);
+
+                if (hit.collider is SphereCollider)
 					hp.ReceiveDamage(Damage * HeadshotMultiplier);
 				else if(hit.collider is CapsuleCollider)
 					hp.ReceiveDamage(Damage * LimbshotMultiplier);
 				else if(hit.collider is BoxCollider)
 					hp.ReceiveDamage(Damage);
 				else
-					print("Cant shoot enemy body part! Remove " + hit.collider);
+					print("Not enemy! We hit: " + hit.collider);
 
 				combatUI.TriggerHitEnemy();
 			}
 			else
 				Debug.Log("Did not hit an enemy. Hit " + hit.transform.name + " instead!");
 
-			AIFunctions ai = hit.transform.GetComponent<AIFunctions>();
+			AIFunctions ai = hit.transform.root.GetComponent<AIFunctions>();
 			if(ai && ai.isActiveAndEnabled)
 				ai.DamageRecieved();
 

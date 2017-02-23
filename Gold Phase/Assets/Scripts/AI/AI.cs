@@ -245,11 +245,11 @@ public class AI : AIFunctions {
                         Vector3 endLoc = gun.position + gun.TransformDirection(0, 0, range) + offset;
 
                         //Debug.DrawRay(gun.position, gun.TransformDirection(0, 0, range) + offset, Color.red);
-                        AIOverseer.instance.PlayRandomSound(AIOverseer.instance.gunShotList, transform.position);
+                        SoundManager.GetInstance().PlaySoundOnce(gun.position, SoundManager.GetInstance().sounds.fireClip, 2f, .25f, true, .9f, 1.1f);
 
-                        if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit))
-                            if (hit.transform.CompareTag("NearPlayer"))
-                                AIOverseer.instance.PlayRandomSound(AIOverseer.instance.flyByList, hit.point);
+                        //if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit))
+                        //    if (hit.transform.CompareTag("NearPlayer"))
+                        //       AIOverseer.instance.PlayRandomSound(AIOverseer.instance.flyByList, hit.point);
 
                         if (Physics.Raycast(gun.position, gun.TransformDirection(0, 0, range) + offset, out hit)) {
                             targetHit = hit.transform.root;

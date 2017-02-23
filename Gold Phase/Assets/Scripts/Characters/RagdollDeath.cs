@@ -28,8 +28,8 @@ public class RagdollDeath : MonoBehaviour
 
 		animator.enabled = state;
 
-		//foreach(Collider col in colliderArray)
-		//	col.isTrigger = state;
+		foreach(Collider col in colliderArray)
+			col.isTrigger = state;
 
 		foreach(Rigidbody rb in rigidbodyArray)
 			rb.isKinematic = state;

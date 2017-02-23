@@ -158,6 +158,8 @@ public class MenuScript : MonoBehaviour {
         devMenu.Sequence3.SetActive(false);
 		devMenu.DevBackground.SetActive(true);
         #endregion
+
+        Time.timeScale = 1f;
     }
 
     // Handles all MouseOver Events

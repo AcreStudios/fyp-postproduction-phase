@@ -8,6 +8,7 @@ public class PauseScript : MonoBehaviour {
     public GameObject PauseTrigger;
     public CursorLockMode cursorLocked = CursorLockMode.Locked;
     public CursorLockMode cursorUnlocked = CursorLockMode.None;
+    public string SceneToLoad;
 
     [System.Serializable]
     public class PauseCanvas {
@@ -96,6 +97,7 @@ public class PauseScript : MonoBehaviour {
     void Start () {
         PauseTrigger.SetActive(true);
         Cursor.lockState = cursorUnlocked;
+        Time.timeScale = 1f;
         #region Pause Canvas
         pauseCanvas.pauseCanvas.SetActive(true);
 
@@ -279,7 +281,7 @@ public class PauseScript : MonoBehaviour {
         currentState = "MOQCNo";
     }
     public void SelectReloadYes() {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneToLoad);
     }
     public void SelectQuitTitleYes() {
         SceneManager.LoadScene("Menu");

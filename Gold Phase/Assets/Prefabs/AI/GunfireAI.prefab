@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 11423156}
   - component: {fileID: 9586144}
   - component: {fileID: 114361032872259286}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GunfireAI
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   weaponOffset: {x: 0, y: 1.276, z: 0}
   attackInterval: 1
   ableToDragPlayerOutOfCover: 0
-  gunSprayValue: 1
+  gunSprayValue: 2
   bullets:
   - {fileID: 114000013964032680}
   areaTestRadius: 1
@@ -213,7 +213,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4489656856529730}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ankle_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4184937781429414}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Index3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4969779018181340}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4226014124987282}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Hand_Orient_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4838931923108176}
   - component: {fileID: 137437539480707038}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: sleevethings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4860230552501380}
   - component: {fileID: 137576303474007088}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: vest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4473154522693946}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Pinky3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4835877196822452}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Pinky1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4905217879813320}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Arm_IK_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4423017816660064}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ankle_IK_HDL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4069338773377628}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Thumb2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4256227358592740}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ankle_IK_HDL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4963085847303506}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Middle3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4259776057183560}
   - component: {fileID: 114570599344517138}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4710071787293046}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Index1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 136368245053309920}
   - component: {fileID: 54244242456568408}
   - component: {fileID: 144660860088669014}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Shoulder_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4621085331234032}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Thumb3_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4139204191143986}
   - component: {fileID: 137606073052616506}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4064807454616636}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Index2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4286321427843870}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Hand_Orient_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4207626207558526}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ankle_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4500579457506428}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Arm_IK_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -551,7 +551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4671632371428232}
   - component: {fileID: 137287890432808152}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: leftsleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4569714201445516}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Thumb1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4811304860517620}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Waist_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -596,7 +596,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4358348157652698}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Index3_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -611,7 +611,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4099595897764870}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ankle_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4242629646469902}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Shoulder_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4679055348653378}
   - component: {fileID: 137218753131052442}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: rightthingys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4856212352291420}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ring2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4862544071596370}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Thumb2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4147350334954054}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ankle_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -702,7 +702,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4136269832899354}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Arm_IK_HDL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -718,7 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4804878216925802}
   - component: {fileID: 137834129643552034}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: pants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4595691755224802}
   - component: {fileID: 137932420843152418}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_boots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4664027922372876}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Middle2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4479847311186426}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Neck_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -779,7 +779,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4792689006506546}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Index3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4126012322029932}
   - component: {fileID: 137369723058068776}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: legbelt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4731542553470668}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4368688789579318}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Palm_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4550380795772280}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_Joints_GRP
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4137305284497784}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: transform7
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4255148638368420}
   - component: {fileID: 137913944464079174}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: legbeltbucklething
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +886,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4095052166011156}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ring2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -902,7 +902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4629805679158152}
   - component: {fileID: 137290225164670592}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: beltbucklething
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4335626648481984}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Neck_Base_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -932,7 +932,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4098700365712582}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Main_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -947,7 +947,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4392240496066650}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Clavicle_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 136767127431973294}
   - component: {fileID: 54814043005692906}
   - component: {fileID: 144748991544525784}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Knee_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -980,7 +980,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4575431520317102}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 136889203417879956}
   - component: {fileID: 54488990019130402}
   - component: {fileID: 144853746784797310}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Hips_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1013,7 +1013,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4683438970710810}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ring3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4613758419856372}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Palm_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1058,7 +1058,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4531218480192364}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Thumb3_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1073,7 +1073,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4638945731911758}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Pinky1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4739801680717176}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Index4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4921445463013102}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Thumb1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1119,7 +1119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4285927885897060}
   - component: {fileID: 137372287908908532}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: legbeltbuckle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1134,7 +1134,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4265867010310176}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_pants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1149,7 +1149,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4701602896701596}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_Controller_GRP
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4367498772878344}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Middle1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4733062497525418}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Head_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4510028897371200}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: transform4
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1209,7 +1209,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4585144381962778}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1224,7 +1224,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4851502879270250}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Index1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1239,7 +1239,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4891020286320760}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Pinky2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ GameObject:
   - component: {fileID: 136192493674462640}
   - component: {fileID: 54165717346775726}
   - component: {fileID: 144942151698359196}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Knee_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 65968606514715556}
   - component: {fileID: 54990037966954746}
   - component: {fileID: 144209391702356436}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_1_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4267405756015510}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_3_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1305,7 +1305,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4911832379922750}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Pinky4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1320,7 +1320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4428429641937038}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Middle4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4871801056869808}
   - component: {fileID: 137362179084052874}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: rightsleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,7 +1351,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4178153486349234}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Middle4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 136289509777135100}
   - component: {fileID: 54941953277032402}
   - component: {fileID: 144010575258146438}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Shoulder_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4899116418961036}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: transform8
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1399,7 +1399,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4521502206977220}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ring1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1414,7 +1414,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4685822417781190}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Head_Top_End_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1429,7 +1429,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4956766249695374}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Pinky4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1444,7 +1444,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4642655978286500}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Middle2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1460,7 +1460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4490096901003688}
   - component: {fileID: 137121369315857766}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: beltbuckle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1476,7 +1476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4346059245118348}
   - component: {fileID: 137168282431707194}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: leftthingys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4733221041290588}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ring3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 136633581266515488}
   - component: {fileID: 54618574338891504}
   - component: {fileID: 144622635702719830}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Elbow_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1524,7 +1524,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4492427220846202}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Foot_Orient_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1539,7 +1539,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4797317697746366}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Pinky2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4597157641702346}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Hand_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1584,7 +1584,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4775501754256086}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Middle3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1599,7 +1599,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4994061408666658}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ring1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1614,7 +1614,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4195973611333896}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: HipControl_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1629,7 +1629,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4881958621411110}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1644,7 +1644,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4003268987640182}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1674,7 +1674,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4538224153766664}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Body_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4113382737261462}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Shoulder_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1704,7 +1704,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4050287802958222}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Pinky3_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1722,7 +1722,7 @@ GameObject:
   - component: {fileID: 135958857782598884}
   - component: {fileID: 54030169560523084}
   - component: {fileID: 144454588622586390}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Head_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1737,7 +1737,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4184034815056282}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Toe_End_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1753,7 +1753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4829809359857720}
   - component: {fileID: 137790623576966296}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1771,7 +1771,7 @@ GameObject:
   - component: {fileID: 136993885537343060}
   - component: {fileID: 54397425356156420}
   - component: {fileID: 144197312862953322}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Hips_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1789,7 +1789,7 @@ GameObject:
   - component: {fileID: 136493696287994732}
   - component: {fileID: 54315522843266516}
   - component: {fileID: 144927275150327732}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Elbow_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1804,7 +1804,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4625138292367894}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Foot_Orient_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1819,7 +1819,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4211612403168676}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Arm_IK_HDL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1835,7 +1835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4732082580259242}
   - component: {fileID: 137911344423952188}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: enemy_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1850,7 +1850,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4881057621175148}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Spine_2_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4832717253420094}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Index2_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4838002416076604}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Middle1_CTRL
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1895,7 +1895,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4907338371461574}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: R_Ring4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1910,7 +1910,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4560644682568410}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: transform3
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1925,7 +1925,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4620711719854252}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Toe_End_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1940,7 +1940,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4079621920365574}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Hand_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1956,7 +1956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4131867656932724}
   - component: {fileID: 137825840696092180}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: topbasethingy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1971,7 +1971,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4114450938074510}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Ring4_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -1987,7 +1987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4214365902239826}
   - component: {fileID: 137932245543290622}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: toppart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2002,7 +2002,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4495969230420590}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: L_Clavicle_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}
@@ -2019,7 +2019,7 @@ GameObject:
   - component: {fileID: 4207697587841180}
   - component: {fileID: 65682044003691176}
   - component: {fileID: 54268754642464526}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Hips_JNT
   m_TagString: Joints
   m_Icon: {fileID: 0}

@@ -74,10 +74,9 @@ public class AIOverseer : MonoBehaviour {
         return new TaskLocation();
     }
 
-    public void PlayRandomSound(AudioClip[] audioGroup, Vector3 position) {
-        //if (audioGroup.Length > 0)
-        //SoundManager.instance.PlaySoundOnce(position, audioGroup[Random.Range(0, audioGroup.Length)]);
-    }
+    //public void PlayRandomSound(AudioClip[] audioGroup, Vector3 position) {
+    //    SoundManager.GetInstance().PlaySoundOnce(position, SoundManager.GetInstance().sounds.fireClip, 2f, .25f, true, .9f,1.1f);
+    //}
 
     public void SpawnOnRandomFloor(GameObject civillian) {
         Instantiate(civillian, RandomWorldLocation(), Quaternion.identity);

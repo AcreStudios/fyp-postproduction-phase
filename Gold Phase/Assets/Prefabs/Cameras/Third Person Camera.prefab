@@ -119,7 +119,7 @@ MonoBehaviour:
   MaxAngle: 50
   CameraPanSpeed: 25
   CameraMoveSpeed: 3
-  CameraAimSpeed: 50
+  CameraAimSpeed: 35
   CameraCollideSpeed: 15
   CameraSmoothing: 0.012
   InvertY: 1
