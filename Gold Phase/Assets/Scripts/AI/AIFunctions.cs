@@ -49,7 +49,9 @@ public class AIFunctions : MonoBehaviour {
         AIOverseer.instance.AIHostileRadius(target.position, range);
 
         destination = GetDestinationPoint(range, ableToHide);
-        if (hpScript.CurrentHealth <= 0 && enabled) {
+
+        if (hpScript.CurrentHealth <= 0) {
+            Debug.Log("Working");
             enabled = false;
             Destroy(gameObject, 5);
         }

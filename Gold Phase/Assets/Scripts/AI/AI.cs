@@ -93,9 +93,9 @@ public class AI : AIFunctions {
     void Update() {
 
         if (damageTest) {
-            damageTest = false;
-            DamageRecieved();
+            damageTest = false;           
             hpScript.ReceiveDamage();
+            DamageRecieved();
         }
 
         switch (currentState) {

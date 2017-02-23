@@ -46,7 +46,8 @@ public class CivillianAI : AIFunctions {
         else
             animator.SetInteger("TreeState", 0);
 
-        agent.destination = destination;
+        if (agent.isOnNavMesh)
+            agent.destination = destination;
         destinationMarker.transform.position = destination;
     }
 
