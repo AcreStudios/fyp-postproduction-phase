@@ -390,7 +390,7 @@ public class MenuScript : MonoBehaviour {
         loadingScreen.PressToContinue.SetActive(true);
         loadingScreen.PressToContinueButton.SetActive(true);
         loadingScreen.DoNot.SetActive(false);
-        //loadingScreen.LoadingIcon.SetActive(false);
+        loadingScreen.LoadingIcon.SetActive(false);
         loadingScreen.LoadingText.SetActive(false);
         loadingScreen.DoneText.SetActive(true);
         currentState = "Loading Done";
